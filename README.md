@@ -4,7 +4,7 @@ Bu repo, **ARI BİLGİ yazılım kursu** süresince aldığım derslerin, notlar
 
 ## 🚀 İçerik
 
-Bu repository içerisinde aşağıdaki konulara ait çalışmalar yer almaktadır:
+Bu repository içerisinde aşağıdaki konulara ait çalışmalar yer alacaktır:
 
 - 💻 Programlama temelleri  
 - 🧠 Algoritma ve veri yapıları  
@@ -30,7 +30,7 @@ Bu repository içerisinde aşağıdaki konulara ait çalışmalar yer almaktadı
 - Tekrar edilebilir kaynak oluşturmak  
 - Benzer eğitim alan kişiler için referans sağlamak  
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Kullanılacak Teknolojiler
 
 - HTML  
 - CSS  
