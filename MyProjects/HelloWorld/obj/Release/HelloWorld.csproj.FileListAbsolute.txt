@@ -1,0 +1,7 @@
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\HelloWorld\bin\Release\HelloWorld.exe.config
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\HelloWorld\bin\Release\HelloWorld.exe
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\HelloWorld\bin\Release\HelloWorld.pdb
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\HelloWorld\obj\Release\HelloWorld.csproj.AssemblyReference.cache
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\HelloWorld\obj\Release\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\HelloWorld\obj\Release\HelloWorld.exe
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\HelloWorld\obj\Release\HelloWorld.pdb

@@ -1,0 +1,7 @@
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Degiskenler\bin\Debug\Degiskenler.exe.config
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Degiskenler\bin\Debug\Degiskenler.exe
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Degiskenler\bin\Debug\Degiskenler.pdb
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Degiskenler\obj\Debug\Degiskenler.csproj.AssemblyReference.cache
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Degiskenler\obj\Debug\Degiskenler.csproj.CoreCompileInputs.cache
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Degiskenler\obj\Debug\Degiskenler.exe
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Degiskenler\obj\Debug\Degiskenler.pdb
