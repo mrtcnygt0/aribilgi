@@ -1,7 +1,0 @@
-C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\DegiskenCalisma\bin\Debug\DegiskenCalisma.exe.config
-C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\DegiskenCalisma\bin\Debug\DegiskenCalisma.exe
-C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\DegiskenCalisma\bin\Debug\DegiskenCalisma.pdb
-C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\DegiskenCalisma\obj\Debug\DegiskenCalisma.csproj.AssemblyReference.cache
-C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\DegiskenCalisma\obj\Debug\DegiskenCalisma.csproj.CoreCompileInputs.cache
-C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\DegiskenCalisma\obj\Debug\DegiskenCalisma.exe
-C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\DegiskenCalisma\obj\Debug\DegiskenCalisma.pdb
