@@ -10,6 +10,18 @@ namespace Degiskenler
     {
         static void Main(string[] args)
         {
+            /* Değişken Ders Notları:
+             * Değişken, bazı verileri bilgisayarın belleğinde (RAM) geçici bir süre bekletmek için kullandığımız yapılardır. İçlerinde bilgiyi program boyunca saklarlar, program sonlandığında bellekten atılırlar. Değişkenler içlerinde değişik türde bilgiler taşıyabilirler. Bir değişkeni tanımlarken, içinde ne tür bir bilgi saklayacağımızı belirtmemiz gerekir.
+            Değişken tipleri:
+            1- Değer Tipli Değişkenler: byte, int, double, char, bool, struct, enum
+            2- Referans Tipli Değişkenler: string, array, class, delegate, interface
+
+            1- Değer Tipli Değişkenler: Bu tip değişkenleriçlerinde veri taşırlar. Belleğin "Stack" bölgesinde yaratılırlar.
+                a) Tam sayı tipler:  byte, short, int, long en çok kullanılan tam sayı tiplerdir.
+             
+             */
+
+
             //-----------------------------------------------------------
             //-------------   REFERANS TİPLİ DEĞİŞKENLER   --------------
             //-----------------------------------------------------------
