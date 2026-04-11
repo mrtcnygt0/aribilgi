@@ -1,0 +1,7 @@
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Veriables\bin\Debug\Veriables.exe.config
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Veriables\bin\Debug\Veriables.exe
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Veriables\bin\Debug\Veriables.pdb
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Veriables\obj\Debug\Veriables.csproj.AssemblyReference.cache
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Veriables\obj\Debug\Veriables.csproj.CoreCompileInputs.cache
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Veriables\obj\Debug\Veriables.exe
+C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Veriables\obj\Debug\Veriables.pdb
