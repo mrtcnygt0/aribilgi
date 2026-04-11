@@ -35,7 +35,7 @@ Bu repository içerisinde aşağıdaki konulara ait çalışmalar yer almaktadı
 - HTML  
 - CSS  
 - JavaScript  
-- (Varsa ekle: Python / C# / Java / SQL vs.)
+- C#
 
 ## 📌 Notlar
 
