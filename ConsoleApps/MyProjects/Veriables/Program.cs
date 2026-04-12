@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -200,6 +201,8 @@ namespace Veriables
             // --------------------------    Kütüphane Konsol Otomasyonu    ----------------------------
             // =========================================================================================
 
+            /*
+             
             Console.Title = "KÜTÜPHANE OTOMASYONU";
 
             string bookName;
@@ -272,6 +275,321 @@ namespace Veriables
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("Hoşçakalın..."); 
             }
+
+
+            Console.ReadKey();
+
+            */
+
+            ///////////////////////////////////////////////////////////////////////////////////////
+            // ****************************   Kolleksiyonlar   ************************************
+            ///////////////////////////////////////////////////////////////////////////////////////
+            
+            // ** ArrayList **// 
+            // Dinamik dizilerdir, her seferinde ArrayListe' e yeni bir üye eklenir. Sınırı yoktur.
+
+            // demirbasListesi = belleğin stack kısmında (heapteki ArrayListin adresini tutar)
+            // new ArrayList = belleğin heap kısmında ArrayList oluşturur
+
+            /*
+            ArrayList demirbasListesi = new ArrayList();
+
+            demirbasListesi.Add(232);
+            demirbasListesi.Add(10.50);
+            demirbasListesi.Add("asdasd");
+            demirbasListesi.Add('A');
+            demirbasListesi.Add(true);
+
+            // Ekrana yazdırırken .ToString kullanmak güvenlik açısından önemlidir. CW harici kullanımlarda ArrayList içerisindeki object değer ekranda gösterilemeyecek karmaşık bir değer olabilir.
+
+            // Array' deki Lenght özelliği ArrayList' te Count ile yapılır.
+            // Console.WriteLine(demirbasListesi.Count);
+            int elemanSayisi = demirbasListesi.Count;
+            // Console.WriteLine(elemanSayisi);
+
+            for (int counter = 0; counter < elemanSayisi; counter++)
+            {
+                Console.WriteLine(demirbasListesi[counter].ToString());
+            }
+            // Remove kullanırken verinin tipi şeklinde yazılmalı. 232 değeri "232" olarak yazılırsa 232 değerini silmez.
+            demirbasListesi.Remove(232);
+            Console.WriteLine(demirbasListesi[0].ToString());
+            // RemoveAt = 0. sıradaki veriyi sil
+            demirbasListesi.RemoveAt(0);
+            // RemoveRange = 0. veriyden başla liste boyutu kadar sil
+            demirbasListesi.RemoveRange(0, demirbasListesi.Count);
+            // Clear = hepsini sil
+            demirbasListesi.Clear();
+
+            */
+
+            ///////////////////////////////////
+            //******* DEPO OTOMASYONU *******//
+            ///////////////////////////////////
+            
+            /*
+             * 
+            ArrayList depoList = new ArrayList();
+
+            depoList.Add("Telefon");
+            depoList.Add("Küpe");
+            depoList.Add("Çanta");
+
+            Console.WriteLine("====================================");
+            Console.WriteLine("***********    DEPO    *************");
+            Console.WriteLine("====================================");
+
+            Console.WriteLine("HOŞ GELDİNİZ!");
+            Console.WriteLine();
+
+            int secim;
+            string ekleUrun;
+            string silUrun;
+            bool varMi;
+
+            SecimEkrani:
+            Console.WriteLine("Lütfen yapmak istediğiniz işlemi seçiniz...");
+
+            Console.WriteLine("> 1) Ürün ekle");
+            Console.WriteLine("> 2) Ürün sil");
+            Console.WriteLine("> 3) Ürün ara");
+            Console.WriteLine("> 4) Ürünleri listele");
+            Console.WriteLine();
+
+            secim = Convert.ToInt32(Console.ReadLine());
+
+            if (secim == 1)
+            {
+                Console.Clear();
+                Console.WriteLine("====================================");
+                Console.WriteLine("*********    ÜRÜN EKLE   ***********");
+                Console.WriteLine("====================================");
+                Console.WriteLine();
+                Console.Write("Eklemek istediğiniz ürün adını giriniz: ");
+                ekleUrun = Console.ReadLine();
+
+                varMi = depoList.Contains(ekleUrun);
+
+                if (!varMi)
+                {
+                    depoList.Add(ekleUrun);
+                    Console.WriteLine(ekleUrun + " başarıyla eklendi.");
+                    Console.WriteLine();
+                    goto SecimEkrani;
+                }
+                else
+                {
+                    Console.WriteLine(ekleUrun + " zaten depoda bulunmaktadır.");
+                    Console.WriteLine();
+                    goto SecimEkrani;
+                }
+
+            }
+            else if (secim == 2)
+            {
+                Console.Clear();
+                Console.WriteLine("====================================");
+                Console.WriteLine("*********    ÜRÜN SİL    ***********");
+                Console.WriteLine("====================================");
+                Console.WriteLine();
+                Console.Write("Silmek istediğiniz ürün adını giriniz: ");
+                silUrun = Console.ReadLine();
+                depoList.Remove(silUrun);
+                Console.WriteLine(silUrun + " başarıyla silindi.");
+                Console.WriteLine();
+                goto SecimEkrani;
+            }
+            else if (secim == 3)
+            {
+                Console.Clear();
+                Console.WriteLine("====================================");
+                Console.WriteLine("*********    ÜRÜN ARA    ***********");
+                Console.WriteLine("====================================");
+                Console.WriteLine();
+                Console.Write("Aramak istediğiniz ürün adını giriniz: ");
+                string araUrun = Console.ReadLine();
+                varMi = depoList.Contains(araUrun);
+                if (varMi)
+                {
+                    Console.WriteLine(araUrun + " depoda bulunmaktadır." + " Sıra Numarası: " + depoList.IndexOf(araUrun));
+                }
+                else
+                {
+                    Console.WriteLine(araUrun + " depoda bulunamadı.");
+                    Console.WriteLine();
+                    goto SecimEkrani;
+                }
+
+            }
+            else if (secim == 4)
+            {
+                Console.Clear();
+                Console.WriteLine("====================================");
+                Console.WriteLine("*******    ÜRÜN  LİSTESİ    ********");
+                Console.WriteLine("====================================");
+                Console.WriteLine();
+                Console.WriteLine("Ürün Sayısı: " + depoList.Count);
+                for (int i = 0; i < depoList.Count; i++)
+                {
+                    Console.WriteLine((i + 1) + "> " + depoList[i]);
+                }
+                Console.WriteLine();
+                goto SecimEkrani;
+            }
+
+            Console.ReadKey();
+
+            //-- HashTable --//
+            // Tip güvenli değildir, her object değerini alabilir.
+            // 2 değer bekler
+            // Arama yaparken "key" değeri girilir, dönen veri "value" değeridir.
+
+            Hashtable aracListesi = new Hashtable();
+            aracListesi.Add("34 ABC 34", 1500000);
+            aracListesi.Add("35 AB 124", 2500000);
+            aracListesi.Add("54 SAK 54", 800000);
+
+            Console.WriteLine(aracListesi["35 AB 124"].ToString());
+
+            // HashTable' da döngü için foreach kullanımı daha uygundur.
+            // foreach henüz anlatılmadı. ÖRNEK KULLANIM
+            foreach (var item in aracListesi.Keys)
+            {
+                Console.WriteLine(aracListesi[item].ToString());
+            }
+
+            // varmı armasını ContainsKey/Value ile yapıyoruz. Bool değer döndürür.
+            bool plakaMevcut = aracListesi.ContainsKey("34 XX 333");
+
+            */
+
+            //----- Dictionary -----//
+            // HasthTable' ın TypeSafe - Tip Güvenli versiyonudur.
+            
+            /*
+            Dictionary<string,string> enTrSozluk = new Dictionary<string,string>();
+
+            Console.Title = "SÖZLÜK - DICTIONARY";
+
+            enTrSozluk.Add("mouse", "fare");
+            enTrSozluk.Add("pen", "tükenmez kalem");
+            enTrSozluk.Add("cup", "bardak");
+            enTrSozluk.Add("car", "araba");
+            enTrSozluk.Add("phone", "telefon");
+            enTrSozluk.Add("class", "sınıf");
+            enTrSozluk.Add("dictionary", "sözlük");
+
+            string arananKelime = "";
+            bool kelimeVarMi = false;
+            string sozlukDevamMi = "";
+
+
+            SozlukDongu:
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("======================================");
+            Console.WriteLine("*********** EN/TR SÖZLÜK *************");
+            Console.WriteLine("======================================");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("> ");
+            Console.ForegroundColor = ConsoleColor.Gray;
+            arananKelime = Console.ReadLine().ToLower();
+            kelimeVarMi = enTrSozluk.Keys.Contains(arananKelime);
+            if (!kelimeVarMi)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Aranan kelime sözlükte bulunamadı!");
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("Devam etmek istiyor musunuz? (E/H)");
+
+                OlumsuzTercih:
+                Console.Write("> ");
+                Console.ForegroundColor = ConsoleColor.White;
+                sozlukDevamMi = Console.ReadLine().ToUpper();
+                if(sozlukDevamMi == "E")
+                {
+                    Console.ResetColor();
+                    Console.Clear();
+                    goto SozlukDongu;
+                }
+                else if (sozlukDevamMi == "H")
+                {
+                    Console.WriteLine();
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("GÜLE GÜLE...");
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                    Console.WriteLine("Yanlış seçim yaptınız. Lütfen tekrar deneyin!");
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    goto OlumsuzTercih;
+                }
+            }
+            else
+            {
+                Console.WriteLine();
+                Console.WriteLine("--------------");
+                Console.WriteLine("> " + arananKelime + " = " + enTrSozluk[arananKelime]);
+                Console.WriteLine("--------------");
+                Console.WriteLine();
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine("Devam etmek istiyor musunuz? (E/H)");
+                OlumluTercih:
+                Console.Write("> ");
+                Console.ForegroundColor = ConsoleColor.White;
+                sozlukDevamMi = Console.ReadLine().ToUpper();
+                if (sozlukDevamMi == "E")
+                {
+                    Console.ResetColor();
+                    Console.Clear();
+                    goto SozlukDongu;
+                } 
+                else if (sozlukDevamMi == "H")
+                {
+                    Console.WriteLine();
+                    Console.ForegroundColor= ConsoleColor.Green;
+                    Console.WriteLine("GÜLE GÜLE...");
+                }
+                else
+                {
+                    Console.ForegroundColor= ConsoleColor.DarkRed;
+                    Console.WriteLine("Yanlış seçim yaptınız. Lütfen tekrar deneyin!");
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    goto OlumluTercih;
+                }
+            }
+
+            Console.ReadKey();
+            */
+
+            //----- Generic List -----//
+            // ArrayList ' in Generic tipinde versiyonudur.
+
+            List<string> malzemeListesi = new List<string>();
+
+            malzemeListesi.Add("Matkap");
+            malzemeListesi.Add("Tornavide");
+            malzemeListesi.Add("Çekiç");
+            malzemeListesi.Add("Lamba");
+            malzemeListesi.Add("El Feneri");
+            malzemeListesi.Add("Pil");
+
+
+            List<Student> ogrenciListesi = new List<Student>();
+
+            Student student1 = new Student();
+            student1.StudentID = 1;
+            student1.NameSurname = "Osman";
+            student1.Grade = 3.49;
+
+            ogrenciListesi.Add(student1);
+
+            ogrenciListesi.Add(new Student { StudentID = 1, NameSurname = "Mustafa", Grade = 2.75 });
+            ogrenciListesi.Add(new Student { StudentID = 2, NameSurname = "Esra", Grade = 3.2 });
+            ogrenciListesi.Add(new Student { StudentID = 3, NameSurname = "Cemile", Grade = 1.85 });
+            ogrenciListesi.Add(new Student { StudentID = 4, NameSurname = "Hüsrev", Grade = 4.15 });
+
 
 
             Console.ReadKey();
