@@ -51,6 +51,25 @@ namespace Veriables
     {
         static void Main(string[] args)
         {
+            /* -- Bool Kullanım Mantığı --
+            bool kontrol;
+            string kullanici = Console.ReadLine();
+
+            kontrol = kullanici.Length > 0;
+
+            // kontrol "true" ise
+            if (kontrol)
+            {
+
+            }
+            // değil ise
+            else
+            {
+
+            }
+            */
+
+
             /*
             char karakter = 'a';
             string k = "hhhhh";
@@ -284,7 +303,7 @@ namespace Veriables
             ///////////////////////////////////////////////////////////////////////////////////////
             // ****************************   Kolleksiyonlar   ************************************
             ///////////////////////////////////////////////////////////////////////////////////////
-            
+
             // ** ArrayList **// 
             // Dinamik dizilerdir, her seferinde ArrayListe' e yeni bir üye eklenir. Sınırı yoktur.
 
@@ -326,7 +345,7 @@ namespace Veriables
             ///////////////////////////////////
             //******* DEPO OTOMASYONU *******//
             ///////////////////////////////////
-            
+
             /*
              * 
             ArrayList depoList = new ArrayList();
@@ -439,7 +458,7 @@ namespace Veriables
 
             Console.ReadKey();
 
-            //-- HashTable --//
+            //----- HashTable -----//
             // Tip güvenli değildir, her object değerini alabilir.
             // 2 değer bekler
             // Arama yaparken "key" değeri girilir, dönen veri "value" değeridir.
@@ -465,7 +484,7 @@ namespace Veriables
 
             //----- Dictionary -----//
             // HasthTable' ın TypeSafe - Tip Güvenli versiyonudur.
-            
+
             /*
             Dictionary<string,string> enTrSozluk = new Dictionary<string,string>();
 
@@ -563,6 +582,7 @@ namespace Veriables
             Console.ReadKey();
             */
 
+            /*
             //----- Generic List -----//
             // ArrayList ' in Generic tipinde versiyonudur.
 
@@ -590,9 +610,60 @@ namespace Veriables
             ogrenciListesi.Add(new Student { StudentID = 3, NameSurname = "Cemile", Grade = 1.85 });
             ogrenciListesi.Add(new Student { StudentID = 4, NameSurname = "Hüsrev", Grade = 4.15 });
 
+            Console.ReadKey();
+            */
 
+
+            /////////////////////////////////// Ürün Adı, Ürün Adet, Ürün Fiyat bilgileri alınacak.
+            //****** ÜRÜN FİYAT KONTROL *****// Adet x Fiyat = Toplam
+            /////////////////////////////////// Kullanıcıya bildirilecek
+            
+            string urunName;
+            int urunAdeti;
+            double urunBirimFiyat;
+            double urunTutari;
+
+            Console.Write("Ürün adını giriniz: ");
+            urunName = Console.ReadLine();
+
+            UrunAdediDongu:
+            try
+            {
+                Console.Write("Ürün adetini giriniz: ");
+                urunAdeti = Convert.ToInt32(Console.ReadLine());
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Yanlış değer girildi. Lütfen tekrar deneyin!");
+                goto UrunAdediDongu;
+            }
+
+            UrunFiyatiDongu:
+            try
+            {
+                Console.Write("Ürünün birim fiyatını giriniz: ");
+                urunBirimFiyat = Convert.ToDouble(Console.ReadLine());
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Yanlış değer girildi. Lütfen tekrar deneyin!");
+                goto UrunFiyatiDongu;
+            }
+
+
+            urunTutari = urunAdeti * urunBirimFiyat;
+
+            Console.WriteLine(urunName + " Ürününün Toplam Satış Tutarı: " + urunTutari + " TL' dir.");
+
+            //ALTERNATİF METOD
+            // Yer tutucu, placeholder ile gösterimi {}
+            // {0} {1] .... {n} ile yer tutucu belirlenir, "" tan sonra ,urunName, urunTutari vb. değişkenler yer tutucuları sırayla doldurur.
+            Console.WriteLine("{0} Ürününün Toplam Satış TUtarı: {1} TL'dir." , urunName, urunTutari);
+            // Ya da öne $ işareti konarak yer tutucu içine direkt değişken adı girilir.
+            Console.WriteLine($"{urunName} Ürününün Toplam Satış TUtarı: {urunTutari} TL'dir.");
 
             Console.ReadKey();
+
         }
     }
 }
