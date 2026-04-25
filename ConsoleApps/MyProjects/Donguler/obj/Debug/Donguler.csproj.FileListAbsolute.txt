@@ -5,3 +5,10 @@ C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Donguler\o
 C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Donguler\obj\Debug\Donguler.csproj.CoreCompileInputs.cache
 C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Donguler\obj\Debug\Donguler.exe
 C:\Users\ARIBILGI\Desktop\ÖĞRENCİ YEDEK\MCY\ConsoleApps\MyProjects\Donguler\obj\Debug\Donguler.pdb
+E:\Documents\MCY\ConsoleApps\MyProjects\Donguler\obj\Debug\Donguler.csproj.AssemblyReference.cache
+E:\Documents\MCY\ConsoleApps\MyProjects\Donguler\obj\Debug\Donguler.csproj.CoreCompileInputs.cache
+E:\Documents\MCY\ConsoleApps\MyProjects\Donguler\obj\Debug\Donguler.exe
+E:\Documents\MCY\ConsoleApps\MyProjects\Donguler\obj\Debug\Donguler.pdb
+E:\Documents\MCY\ConsoleApps\MyProjects\Donguler\bin\Debug\Donguler.exe.config
+E:\Documents\MCY\ConsoleApps\MyProjects\Donguler\bin\Debug\Donguler.exe
+E:\Documents\MCY\ConsoleApps\MyProjects\Donguler\bin\Debug\Donguler.pdb
