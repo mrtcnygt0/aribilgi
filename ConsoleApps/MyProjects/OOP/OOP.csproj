@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kamyon.cs" />
+    <Compile Include="Minibus.cs" />
+    <Compile Include="Motosiklet.cs" />
+    <Compile Include="Otobus.cs" />
+    <Compile Include="Otomobil.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tasit.cs" />
+    <Compile Include="Ucak.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

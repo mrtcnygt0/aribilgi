@@ -16,7 +16,7 @@ namespace OOP
         Siyah,
         Beyaz
     }
-    class Araba
+    class Car
     {
 
     }
@@ -70,6 +70,7 @@ namespace OOP
     {
         static void Main(string[] args)
         {
+            /*
             Product urun = new Product();
             urun.ProductId = 1;
             urun.ProductName = "Laptop";
@@ -106,8 +107,30 @@ namespace OOP
 
             ogrenci1.NotOrtHesapla(ogrenci1.vizeNotu,ogrenci1.finalNotu);
 
+            */
 
+            Console.WriteLine("--------------");
 
+            Kamyon kamyon1 = new Kamyon();
+            kamyon1.SetFiyat(-1000);
+            kamyon1.Sat();
+            Console.WriteLine(kamyon1.GetFiyat());
+
+            Otobus otobus1 = new Otobus();
+            otobus1.SetFiyat(200000);
+            otobus1.Sat();
+
+            Motosiklet motosiklet1 = new Motosiklet();
+            motosiklet1.marka = "Honda";
+            motosiklet1.Listele();
+
+            Otomobil otomobil1 = new Otomobil();
+            otomobil1.SetFiyat(50000);
+            otomobil1.Sat();
+
+            Ucak ucak1 = new Ucak();
+            ucak1.marka = "Boeing";
+            ucak1.Kirala();
         }
     }
 }
