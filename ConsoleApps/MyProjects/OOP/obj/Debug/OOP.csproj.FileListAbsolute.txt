@@ -1,0 +1,7 @@
+E:\Documents\MCY\ConsoleApps\MyProjects\OOP\obj\Debug\OOP.csproj.AssemblyReference.cache
+E:\Documents\MCY\ConsoleApps\MyProjects\OOP\obj\Debug\OOP.csproj.CoreCompileInputs.cache
+E:\Documents\MCY\ConsoleApps\MyProjects\OOP\bin\Debug\OOP.exe.config
+E:\Documents\MCY\ConsoleApps\MyProjects\OOP\bin\Debug\OOP.exe
+E:\Documents\MCY\ConsoleApps\MyProjects\OOP\bin\Debug\OOP.pdb
+E:\Documents\MCY\ConsoleApps\MyProjects\OOP\obj\Debug\OOP.exe
+E:\Documents\MCY\ConsoleApps\MyProjects\OOP\obj\Debug\OOP.pdb
