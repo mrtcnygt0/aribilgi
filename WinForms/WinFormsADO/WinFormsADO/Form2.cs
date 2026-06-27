@@ -13,6 +13,8 @@ namespace WinFormsADO
 {
     public partial class Form2 : Form
     {
+        // SQL bağlantısı için SqlConnection nesnesi oluşturuluyor ve bağlantı dizesi ile başlatılıyor.
+        // Burada kendinize özgü bilgileri kullanmanız gerekmektedir. Örneğin, sunucu adı, veritabanı adı ve kimlik doğrulama bilgileri.
         SqlConnection conn = new SqlConnection("Data Source=MERT\\SQLEXPRESS;Initial Catalog=HastaKayitDB;Integrated Security=True;Encrypt=False;");
 
         SqlCommand cmdSelect = new SqlCommand("SELECT HastaID, AdSoyad, Adres, Telefon, Sikayet, KayitTarihi, AktifMi, Borc FROM Hastalar WHERE AktifMi = 0");
@@ -41,38 +43,44 @@ namespace WinFormsADO
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            btnGuncelle.Enabled = false;
             ListeyiYenile();
         }
 
         private void btnGuncelle_Click(object sender, EventArgs e)
         {
-            DialogResult dugme = MessageBox.Show("Kayıt güncellenecek. Emin misiniz?", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-
-            if (dugme == DialogResult.No)
+            if (secilenHastaNo == -1)
             {
+                MessageBox.Show("Lütfen bir hasta seçiniz.");
                 return;
             }
 
+            DialogResult dugme = MessageBox.Show(
+                "Hasta tekrar aktif edilecek. Emin misiniz?",
+                "Uyarı",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
+
+            if (dugme == DialogResult.No)
+                return;
+
             cmdUpdate.Connection = conn;
             cmdUpdate.Parameters.Clear();
-            cmdUpdate.Parameters.AddWithValue("@AktifMi", 1);
-            cmdUpdate.Parameters.AddWithValue("@hastaNo", 1);
 
-            if (conn.State != ConnectionState.Open)
-            {
-                conn.Open();
-            }
+            cmdUpdate.Parameters.AddWithValue("@AktifMi", true);
+            cmdUpdate.Parameters.AddWithValue("@hastaNo", secilenHastaNo);
 
+            conn.Open();
             cmdUpdate.ExecuteNonQuery();
-
-            if (conn.State != ConnectionState.Closed)
-            {
-                conn.Close();
-            }
+            conn.Close();
 
             ListeyiYenile();
 
-            MessageBox.Show("Kayıt başarıyla güncellendi.");
+            secilenHastaNo = -1;
+
+            MessageBox.Show("Hasta başarıyla aktif edildi.");
+
+            btnGuncelle.Enabled = false;
         }
 
         private void dataGridView1_Click(object sender, EventArgs e)
@@ -80,14 +88,19 @@ namespace WinFormsADO
 
         }
 
-        public void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            DataGridViewRow row = new DataGridViewRow();
-            row = dataGridView1.Rows[e.RowIndex];
-            row.Selected = true;
+        private int secilenHastaNo = -1;
 
-            int hastaNo = int.Parse(row.Cells[0].Value.ToString());
-            bool aktifMi = (bool)row.Cells[6].Value;
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            btnGuncelle.Enabled = true;
+
+            if (e.RowIndex < 0)
+                return;
+
+            DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
+
+            secilenHastaNo = Convert.ToInt32(row.Cells[0].Value);
+            
         }
     }
 }

@@ -216,6 +216,7 @@ namespace WinFormsADO
         {
             Form2 frm = new Form2();
             frm.ShowDialog();
+            ListeyiYenile();
         }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.dgvListe = new System.Windows.Forms.DataGridView();
             this.lblHastaNo = new System.Windows.Forms.Label();
             this.txtHastaNo = new System.Windows.Forms.TextBox();
@@ -342,6 +343,7 @@
             this.Controls.Add(this.lblHastaNo);
             this.Controls.Add(this.dgvListe);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

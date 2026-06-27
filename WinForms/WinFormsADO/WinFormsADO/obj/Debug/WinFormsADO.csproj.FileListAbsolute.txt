@@ -9,3 +9,14 @@ E:\Documents\MCY\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.csproj.C
 E:\Documents\MCY\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.exe
 E:\Documents\MCY\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.pdb
 E:\Documents\MCY\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.Form2.resources
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\WinFormsADO\bin\Debug\WinFormsADO.exe.config
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\WinFormsADO\bin\Debug\WinFormsADO.exe
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\WinFormsADO\bin\Debug\WinFormsADO.pdb
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.csproj.AssemblyReference.cache
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.Form1.resources
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.Form2.resources
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.Properties.Resources.resources
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.csproj.GenerateResource.cache
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.csproj.CoreCompileInputs.cache
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.exe
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.pdb
