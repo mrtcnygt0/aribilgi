@@ -18,7 +18,7 @@ Bu repository içerisinde aşağıdaki konulara ait çalışmalar yer alacaktır
 ## 📁 Klasör Yapısı
 
 - /ConsoleApps
-- /FormApps
+- /WinForms
 - ...
 - /
 - /
