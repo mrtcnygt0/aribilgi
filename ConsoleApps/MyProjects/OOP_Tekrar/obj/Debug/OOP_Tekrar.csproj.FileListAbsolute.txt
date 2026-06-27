@@ -1,0 +1,7 @@
+E:\Documents\MCY\ConsoleApps\MyProjects\OOP_Tekrar\bin\Debug\OOP_Tekrar.exe.config
+E:\Documents\MCY\ConsoleApps\MyProjects\OOP_Tekrar\bin\Debug\OOP_Tekrar.exe
+E:\Documents\MCY\ConsoleApps\MyProjects\OOP_Tekrar\bin\Debug\OOP_Tekrar.pdb
+E:\Documents\MCY\ConsoleApps\MyProjects\OOP_Tekrar\obj\Debug\OOP_Tekrar.csproj.AssemblyReference.cache
+E:\Documents\MCY\ConsoleApps\MyProjects\OOP_Tekrar\obj\Debug\OOP_Tekrar.csproj.CoreCompileInputs.cache
+E:\Documents\MCY\ConsoleApps\MyProjects\OOP_Tekrar\obj\Debug\OOP_Tekrar.exe
+E:\Documents\MCY\ConsoleApps\MyProjects\OOP_Tekrar\obj\Debug\OOP_Tekrar.pdb
