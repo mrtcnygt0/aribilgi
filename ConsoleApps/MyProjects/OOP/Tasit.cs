@@ -69,9 +69,35 @@ namespace OOP
             Console.WriteLine("Taşıt Alındı");
         }
 
-        public void Sat()
+        public virtual void Sat()
         {
             Console.WriteLine("Taşıt Satıldı");
         }
+
+        public static void BilgiVer(Tasit t)
+        {
+            StringBuilder sb = new StringBuilder();
+            // StringBuilder sınıfı, string işlemlerini daha verimli hale getirmek için kullanılır. Özellikle çok sayıda string birleştirme işlemi yaparken performansı artırır.
+            // \ karakteri, string içinde özel karakterleri temsil etmek için kullanılır. Örneğin, \n yeni satır karakterini temsil eder.
+            // Escape karakterleri, string içinde özel anlam taşıyan karakterleri temsil etmek için kullanılır. Örneğin, \" çift tırnak karakterini temsil eder.
+            // Escape karater listesi: \n (yeni satır), \t (tab), \\ (ters eğik çizgi), \" (çift tırnak), \' (tek tırnak) gibi karakterler bulunur.
+            // Escape karakter tam liste: https://www.tutorialspoint.com/csharp/csharp_escape_characters.htm
+            sb.Append($"Marka : {t.marka}\n");
+            sb.Append($"Model : {t.model}\n");
+            sb.Append($"Üretim Yılı : {t.uretimYili}");
+            Console.WriteLine(sb.ToString());
+        }
+
+        // ToString() metodu ezilmeye müsait yani virtual yaratıldığı için override edilebilir. ToString() metodu, bir nesnenin string temsilini döndürmek için kullanılır.
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append($"Marka : {marka}\n");
+            sb.Append($"Model : {model}\n");
+            sb.Append($"Üretim Yılı : {uretimYili}");
+            Console.WriteLine(sb.ToString());
+            return base.ToString();
+        }
+
     }
 }

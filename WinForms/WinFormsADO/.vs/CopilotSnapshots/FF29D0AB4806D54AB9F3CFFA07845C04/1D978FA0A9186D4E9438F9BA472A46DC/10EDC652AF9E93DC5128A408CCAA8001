@@ -1,0 +1,346 @@
+﻿namespace WinFormsADO
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///Gerekli tasarımcı değişkeni.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///Kullanılan tüm kaynakları temizleyin.
+        /// </summary>
+        ///<param name="disposing">yönetilen kaynaklar dispose edilmeliyse doğru; aksi halde yanlış.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer üretilen kod
+
+        /// <summary>
+        /// Tasarımcı desteği için gerekli metot - bu metodun 
+        ///içeriğini kod düzenleyici ile değiştirmeyin.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.dgvListe = new System.Windows.Forms.DataGridView();
+            this.lblHastaNo = new System.Windows.Forms.Label();
+            this.txtHastaNo = new System.Windows.Forms.TextBox();
+            this.txtHastaAd = new System.Windows.Forms.TextBox();
+            this.lblHastaAd = new System.Windows.Forms.Label();
+            this.txtAdres = new System.Windows.Forms.TextBox();
+            this.lblAdres = new System.Windows.Forms.Label();
+            this.lblTelefon = new System.Windows.Forms.Label();
+            this.txtTelefon = new System.Windows.Forms.MaskedTextBox();
+            this.txtSikayet = new System.Windows.Forms.TextBox();
+            this.lblSikayet = new System.Windows.Forms.Label();
+            this.lblTarih = new System.Windows.Forms.Label();
+            this.dtpTarih = new System.Windows.Forms.DateTimePicker();
+            this.chkAktif = new System.Windows.Forms.CheckBox();
+            this.lblAktif = new System.Windows.Forms.Label();
+            this.lblBorc = new System.Windows.Forms.Label();
+            this.nudBorc = new System.Windows.Forms.NumericUpDown();
+            this.btnKaydet = new System.Windows.Forms.Button();
+            this.btnGuncelle = new System.Windows.Forms.Button();
+            this.btnSil = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListe)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudBorc)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dgvListe
+            // 
+            this.dgvListe.AllowUserToAddRows = false;
+            this.dgvListe.AllowUserToDeleteRows = false;
+            this.dgvListe.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvListe.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.dgvListe.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(46)))), ((int)(((byte)(45)))));
+            this.dgvListe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvListe.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dgvListe.Location = new System.Drawing.Point(0, 409);
+            this.dgvListe.MultiSelect = false;
+            this.dgvListe.Name = "dgvListe";
+            this.dgvListe.ReadOnly = true;
+            this.dgvListe.Size = new System.Drawing.Size(877, 319);
+            this.dgvListe.TabIndex = 0;
+            this.dgvListe.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListe_CellClick);
+            this.dgvListe.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListe_CellContentClick);
+            // 
+            // lblHastaNo
+            // 
+            this.lblHastaNo.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHastaNo.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblHastaNo.Location = new System.Drawing.Point(12, 27);
+            this.lblHastaNo.Name = "lblHastaNo";
+            this.lblHastaNo.Size = new System.Drawing.Size(133, 23);
+            this.lblHastaNo.TabIndex = 1;
+            this.lblHastaNo.Text = "Hasta No:";
+            // 
+            // txtHastaNo
+            // 
+            this.txtHastaNo.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHastaNo.Location = new System.Drawing.Point(100, 22);
+            this.txtHastaNo.Name = "txtHastaNo";
+            this.txtHastaNo.ReadOnly = true;
+            this.txtHastaNo.Size = new System.Drawing.Size(303, 28);
+            this.txtHastaNo.TabIndex = 2;
+            // 
+            // txtHastaAd
+            // 
+            this.txtHastaAd.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHastaAd.Location = new System.Drawing.Point(100, 88);
+            this.txtHastaAd.MaxLength = 100;
+            this.txtHastaAd.Name = "txtHastaAd";
+            this.txtHastaAd.Size = new System.Drawing.Size(303, 28);
+            this.txtHastaAd.TabIndex = 4;
+            // 
+            // lblHastaAd
+            // 
+            this.lblHastaAd.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHastaAd.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblHastaAd.Location = new System.Drawing.Point(12, 91);
+            this.lblHastaAd.Name = "lblHastaAd";
+            this.lblHastaAd.Size = new System.Drawing.Size(133, 23);
+            this.lblHastaAd.TabIndex = 3;
+            this.lblHastaAd.Text = "Hasta Adı:";
+            // 
+            // txtAdres
+            // 
+            this.txtAdres.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAdres.Location = new System.Drawing.Point(524, 27);
+            this.txtAdres.MaxLength = 1000;
+            this.txtAdres.Multiline = true;
+            this.txtAdres.Name = "txtAdres";
+            this.txtAdres.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtAdres.Size = new System.Drawing.Size(331, 107);
+            this.txtAdres.TabIndex = 6;
+            // 
+            // lblAdres
+            // 
+            this.lblAdres.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdres.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblAdres.Location = new System.Drawing.Point(436, 28);
+            this.lblAdres.Name = "lblAdres";
+            this.lblAdres.Size = new System.Drawing.Size(133, 23);
+            this.lblAdres.TabIndex = 5;
+            this.lblAdres.Text = "Adres:";
+            // 
+            // lblTelefon
+            // 
+            this.lblTelefon.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefon.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblTelefon.Location = new System.Drawing.Point(12, 160);
+            this.lblTelefon.Name = "lblTelefon";
+            this.lblTelefon.Size = new System.Drawing.Size(133, 23);
+            this.lblTelefon.TabIndex = 7;
+            this.lblTelefon.Text = "Telefon:";
+            // 
+            // txtTelefon
+            // 
+            this.txtTelefon.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefon.Location = new System.Drawing.Point(100, 157);
+            this.txtTelefon.Mask = "000 (999) 000 0000";
+            this.txtTelefon.Name = "txtTelefon";
+            this.txtTelefon.Size = new System.Drawing.Size(303, 28);
+            this.txtTelefon.TabIndex = 9;
+            // 
+            // txtSikayet
+            // 
+            this.txtSikayet.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSikayet.Location = new System.Drawing.Point(525, 154);
+            this.txtSikayet.MaxLength = 5000;
+            this.txtSikayet.Multiline = true;
+            this.txtSikayet.Name = "txtSikayet";
+            this.txtSikayet.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtSikayet.Size = new System.Drawing.Size(331, 129);
+            this.txtSikayet.TabIndex = 11;
+            // 
+            // lblSikayet
+            // 
+            this.lblSikayet.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSikayet.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblSikayet.Location = new System.Drawing.Point(436, 157);
+            this.lblSikayet.Name = "lblSikayet";
+            this.lblSikayet.Size = new System.Drawing.Size(133, 23);
+            this.lblSikayet.TabIndex = 10;
+            this.lblSikayet.Text = "Şikayet:";
+            // 
+            // lblTarih
+            // 
+            this.lblTarih.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTarih.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblTarih.Location = new System.Drawing.Point(12, 231);
+            this.lblTarih.Name = "lblTarih";
+            this.lblTarih.Size = new System.Drawing.Size(133, 23);
+            this.lblTarih.TabIndex = 12;
+            this.lblTarih.Text = "Giriş Tarihi:";
+            // 
+            // dtpTarih
+            // 
+            this.dtpTarih.CalendarFont = new System.Drawing.Font("Leelawadee UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpTarih.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpTarih.Location = new System.Drawing.Point(121, 226);
+            this.dtpTarih.Name = "dtpTarih";
+            this.dtpTarih.Size = new System.Drawing.Size(282, 28);
+            this.dtpTarih.TabIndex = 13;
+            // 
+            // chkAktif
+            // 
+            this.chkAktif.AutoSize = false;
+            this.chkAktif.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.chkAktif.Checked = true;
+            this.chkAktif.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkAktif.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chkAktif.Font = new System.Drawing.Font("Microsoft Tai Le", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkAktif.Location = new System.Drawing.Point(130, 288);
+            this.chkAktif.Name = "chkAktif";
+            this.chkAktif.Size = new System.Drawing.Size(56, 56);
+            this.chkAktif.TabIndex = 14;
+            this.chkAktif.Text = "";
+            this.chkAktif.UseVisualStyleBackColor = true;
+            this.chkAktif.CheckedChanged += new System.EventHandler(this.chkAktif_CheckedChanged);
+            // 
+            // lblAktif
+            // 
+            this.lblAktif.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAktif.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblAktif.Location = new System.Drawing.Point(12, 298);
+            this.lblAktif.Name = "lblAktif";
+            this.lblAktif.Size = new System.Drawing.Size(93, 23);
+            this.lblAktif.TabIndex = 15;
+            this.lblAktif.Text = "Aktif mi?";
+            // 
+            // lblBorc
+            // 
+            this.lblBorc.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBorc.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblBorc.Location = new System.Drawing.Point(12, 364);
+            this.lblBorc.Name = "lblBorc";
+            this.lblBorc.Size = new System.Drawing.Size(93, 23);
+            this.lblBorc.TabIndex = 16;
+            this.lblBorc.Text = "Borç:";
+            // 
+            // nudBorc
+            // 
+            this.nudBorc.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudBorc.Increment = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.nudBorc.Location = new System.Drawing.Point(121, 359);
+            this.nudBorc.Maximum = new decimal(new int[] {
+            1410065408,
+            2,
+            0,
+            0});
+            this.nudBorc.Name = "nudBorc";
+            this.nudBorc.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.nudBorc.Size = new System.Drawing.Size(282, 28);
+            this.nudBorc.TabIndex = 18;
+            this.nudBorc.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.nudBorc.ThousandsSeparator = true;
+            // 
+            // btnKaydet
+            // 
+            this.btnKaydet.BackColor = System.Drawing.Color.LightGreen;
+            this.btnKaydet.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKaydet.Location = new System.Drawing.Point(434, 299);
+            this.btnKaydet.Name = "btnKaydet";
+            this.btnKaydet.Size = new System.Drawing.Size(136, 101);
+            this.btnKaydet.TabIndex = 19;
+            this.btnKaydet.Text = "KAYDET";
+            this.btnKaydet.UseVisualStyleBackColor = false;
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
+            // 
+            // btnGuncelle
+            // 
+            this.btnGuncelle.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnGuncelle.Enabled = false;
+            this.btnGuncelle.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuncelle.Location = new System.Drawing.Point(577, 299);
+            this.btnGuncelle.Name = "btnGuncelle";
+            this.btnGuncelle.Size = new System.Drawing.Size(136, 101);
+            this.btnGuncelle.TabIndex = 20;
+            this.btnGuncelle.Text = "GÜNCELLE";
+            this.btnGuncelle.UseVisualStyleBackColor = false;
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
+            // 
+            // btnSil
+            // 
+            this.btnSil.BackColor = System.Drawing.Color.IndianRed;
+            this.btnSil.Enabled = false;
+            this.btnSil.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSil.Location = new System.Drawing.Point(719, 300);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(136, 101);
+            this.btnSil.TabIndex = 21;
+            this.btnSil.Text = "SİL";
+            this.btnSil.UseVisualStyleBackColor = false;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(46)))), ((int)(((byte)(45)))));
+            this.ClientSize = new System.Drawing.Size(877, 728);
+            this.Controls.Add(this.btnSil);
+            this.Controls.Add(this.btnGuncelle);
+            this.Controls.Add(this.btnKaydet);
+            this.Controls.Add(this.nudBorc);
+            this.Controls.Add(this.lblBorc);
+            this.Controls.Add(this.lblAktif);
+            this.Controls.Add(this.chkAktif);
+            this.Controls.Add(this.dtpTarih);
+            this.Controls.Add(this.lblTarih);
+            this.Controls.Add(this.txtSikayet);
+            this.Controls.Add(this.lblSikayet);
+            this.Controls.Add(this.txtTelefon);
+            this.Controls.Add(this.lblTelefon);
+            this.Controls.Add(this.txtAdres);
+            this.Controls.Add(this.lblAdres);
+            this.Controls.Add(this.txtHastaAd);
+            this.Controls.Add(this.lblHastaAd);
+            this.Controls.Add(this.txtHastaNo);
+            this.Controls.Add(this.lblHastaNo);
+            this.Controls.Add(this.dgvListe);
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "HASTA KAYIT FORMU";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListe)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudBorc)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.DataGridView dgvListe;
+        private System.Windows.Forms.Label lblHastaNo;
+        private System.Windows.Forms.TextBox txtHastaNo;
+        private System.Windows.Forms.TextBox txtHastaAd;
+        private System.Windows.Forms.Label lblHastaAd;
+        private System.Windows.Forms.TextBox txtAdres;
+        private System.Windows.Forms.Label lblAdres;
+        private System.Windows.Forms.Label lblTelefon;
+        private System.Windows.Forms.MaskedTextBox txtTelefon;
+        private System.Windows.Forms.TextBox txtSikayet;
+        private System.Windows.Forms.Label lblSikayet;
+        private System.Windows.Forms.Label lblTarih;
+        private System.Windows.Forms.DateTimePicker dtpTarih;
+        private System.Windows.Forms.CheckBox chkAktif;
+        private System.Windows.Forms.Label lblAktif;
+        private System.Windows.Forms.Label lblBorc;
+        private System.Windows.Forms.NumericUpDown nudBorc;
+        private System.Windows.Forms.Button btnKaydet;
+        private System.Windows.Forms.Button btnGuncelle;
+        private System.Windows.Forms.Button btnSil;
+    }
+}
+

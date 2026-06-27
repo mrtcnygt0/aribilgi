@@ -1,0 +1,10 @@
+E:\Documents\MCY\WinForms\WinForms\HesapMakinesi\bin\Debug\HesapMakinesi.exe.config
+E:\Documents\MCY\WinForms\WinForms\HesapMakinesi\bin\Debug\HesapMakinesi.exe
+E:\Documents\MCY\WinForms\WinForms\HesapMakinesi\bin\Debug\HesapMakinesi.pdb
+E:\Documents\MCY\WinForms\WinForms\HesapMakinesi\obj\Debug\HesapMakinesi.csproj.AssemblyReference.cache
+E:\Documents\MCY\WinForms\WinForms\HesapMakinesi\obj\Debug\HesapMakinesi.Form1.resources
+E:\Documents\MCY\WinForms\WinForms\HesapMakinesi\obj\Debug\HesapMakinesi.Properties.Resources.resources
+E:\Documents\MCY\WinForms\WinForms\HesapMakinesi\obj\Debug\HesapMakinesi.csproj.GenerateResource.cache
+E:\Documents\MCY\WinForms\WinForms\HesapMakinesi\obj\Debug\HesapMakinesi.csproj.CoreCompileInputs.cache
+E:\Documents\MCY\WinForms\WinForms\HesapMakinesi\obj\Debug\HesapMakinesi.exe
+E:\Documents\MCY\WinForms\WinForms\HesapMakinesi\obj\Debug\HesapMakinesi.pdb

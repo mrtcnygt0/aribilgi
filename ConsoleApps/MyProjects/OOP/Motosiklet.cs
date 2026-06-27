@@ -9,6 +9,7 @@ namespace OOP
     // Motosiklet sınıfı, Tasit sınıfından kalıtım alır
     internal class Motosiklet : Tasit
     {
-        
+        public string kullanimTipi { get; }
+
     }
 }

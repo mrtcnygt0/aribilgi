@@ -45,5 +45,19 @@ namespace OOP
             Console.WriteLine("Uçak Kiralandı");
         }
 
+        // Ata sınıftan devralınan Sat() metodunu, Ucak sınıfında kendine özel olarak değiştirerek kullanabilmesi durumudur.
+        public new void Sat()
+        {
+            Console.WriteLine("Uçak Satıldı");
+        }
+
+        // override metodu, ata sınıfta virtual olarak tanımlanan bir metodu, alt sınıfta kendine özgü bir şekilde yeniden tanımlayarak kullanabilmesi durumudur.
+        /*
+        public override void Sat()
+        {
+            Console.WriteLine("Uçak Satıldı");
+        }
+        */
+
     }
 }

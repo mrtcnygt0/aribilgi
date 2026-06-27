@@ -1,0 +1,11 @@
+E:\Documents\MCY\WinForms\WinFormsADO\WinFormsADO\bin\Debug\WinFormsADO.exe.config
+E:\Documents\MCY\WinForms\WinFormsADO\WinFormsADO\bin\Debug\WinFormsADO.exe
+E:\Documents\MCY\WinForms\WinFormsADO\WinFormsADO\bin\Debug\WinFormsADO.pdb
+E:\Documents\MCY\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.csproj.AssemblyReference.cache
+E:\Documents\MCY\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.Form1.resources
+E:\Documents\MCY\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.Properties.Resources.resources
+E:\Documents\MCY\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.csproj.GenerateResource.cache
+E:\Documents\MCY\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.csproj.CoreCompileInputs.cache
+E:\Documents\MCY\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.exe
+E:\Documents\MCY\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.pdb
+E:\Documents\MCY\WinForms\WinFormsADO\WinFormsADO\obj\Debug\WinFormsADO.Form2.resources

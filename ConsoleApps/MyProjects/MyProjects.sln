@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11716.220
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{128E22C9-DDE7-40DB-8995-DD7E8C1ECD2C}"
 EndProject
@@ -18,6 +18,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operatorler", "Operatorler\Operatorler.csproj", "{5408365C-1AF5-4CD3-A949-D4EB80363B64}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donguler", "Donguler\Donguler.csproj", "{30C25AA5-BD37-4552-BFC4-0D9BF81D317E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{3C506F92-D2E2-4568-A186-9F76A8D1018B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Tekrar", "OOP_Tekrar\OOP_Tekrar.csproj", "{AE241E7F-1F91-4906-A7BB-8211DEE9568F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,8 +61,19 @@ Global
 		{30C25AA5-BD37-4552-BFC4-0D9BF81D317E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30C25AA5-BD37-4552-BFC4-0D9BF81D317E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30C25AA5-BD37-4552-BFC4-0D9BF81D317E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C506F92-D2E2-4568-A186-9F76A8D1018B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C506F92-D2E2-4568-A186-9F76A8D1018B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C506F92-D2E2-4568-A186-9F76A8D1018B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C506F92-D2E2-4568-A186-9F76A8D1018B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE241E7F-1F91-4906-A7BB-8211DEE9568F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE241E7F-1F91-4906-A7BB-8211DEE9568F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE241E7F-1F91-4906-A7BB-8211DEE9568F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE241E7F-1F91-4906-A7BB-8211DEE9568F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFAA7808-CA6B-42C2-B991-1813A9C53F84}
 	EndGlobalSection
 EndGlobal

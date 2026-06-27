@@ -1,0 +1,10 @@
+E:\Documents\MCY\WinForms\WinForms\Input\bin\Debug\Input.exe.config
+E:\Documents\MCY\WinForms\WinForms\Input\bin\Debug\Input.exe
+E:\Documents\MCY\WinForms\WinForms\Input\bin\Debug\Input.pdb
+E:\Documents\MCY\WinForms\WinForms\Input\obj\Debug\Input.csproj.AssemblyReference.cache
+E:\Documents\MCY\WinForms\WinForms\Input\obj\Debug\Input.Form1.resources
+E:\Documents\MCY\WinForms\WinForms\Input\obj\Debug\Input.Properties.Resources.resources
+E:\Documents\MCY\WinForms\WinForms\Input\obj\Debug\Input.csproj.GenerateResource.cache
+E:\Documents\MCY\WinForms\WinForms\Input\obj\Debug\Input.csproj.CoreCompileInputs.cache
+E:\Documents\MCY\WinForms\WinForms\Input\obj\Debug\Input.exe
+E:\Documents\MCY\WinForms\WinForms\Input\obj\Debug\Input.pdb

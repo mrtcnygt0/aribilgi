@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="HelloWorld/HelloWorld.csproj" Id="39c4d430-c9b2-4b42-81d4-be413424bfe4" />
+  <Project Path="HesapMakinesi/HesapMakinesi.csproj" Id="5590cfee-d46c-4ddd-89ca-02edf0b298fb" />
+  <Project Path="Input/Input.csproj" Id="6a24cd9f-f7f3-4a4d-b2ec-38b68b24dc3f" />
+</Solution>

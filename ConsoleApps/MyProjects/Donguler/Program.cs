@@ -113,7 +113,7 @@ namespace Donguler
             // TODO: While ile Hesap Makinesi buraya monte edilecek.
             while (true)
             {
-                Console.WriteLine("=== Hesap Makinesi ===");
+                Console.WriteLine("=== Hesap Makinesi  | While Kullanılarak Yapıldı ===");
                 Console.WriteLine("1 - Toplama");
                 Console.WriteLine("2 - Çıkarma");
                 Console.WriteLine("3 - Çarpma");
@@ -199,7 +199,7 @@ namespace Donguler
             {
                 //TODO:Hesap makinesi buraya monte edilecek.
 
-                Console.WriteLine("=== Hesap Makinesi ===");
+                Console.WriteLine("=== Hesap Makinesi | While Kullanılarak Yapıldı ===");
                 Console.WriteLine("1 - Toplama");
                 Console.WriteLine("2 - Çıkarma");
                 Console.WriteLine("3 - Çarpma");
@@ -248,6 +248,7 @@ namespace Donguler
                             sonuc = sayi1 / sayi2;
                             Console.WriteLine("Sonuç: " + sonuc);
                             Console.WriteLine();
+                            
                         }
                     }
                 }

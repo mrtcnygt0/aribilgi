@@ -1,0 +1,10 @@
+E:\Documents\MCY\WinForms\WinForms\HelloWorld\bin\Debug\HelloWorld.exe.config
+E:\Documents\MCY\WinForms\WinForms\HelloWorld\bin\Debug\HelloWorld.exe
+E:\Documents\MCY\WinForms\WinForms\HelloWorld\bin\Debug\HelloWorld.pdb
+E:\Documents\MCY\WinForms\WinForms\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+E:\Documents\MCY\WinForms\WinForms\HelloWorld\obj\Debug\HelloWorld.Form1.resources
+E:\Documents\MCY\WinForms\WinForms\HelloWorld\obj\Debug\HelloWorld.Properties.Resources.resources
+E:\Documents\MCY\WinForms\WinForms\HelloWorld\obj\Debug\HelloWorld.csproj.GenerateResource.cache
+E:\Documents\MCY\WinForms\WinForms\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+E:\Documents\MCY\WinForms\WinForms\HelloWorld\obj\Debug\HelloWorld.exe
+E:\Documents\MCY\WinForms\WinForms\HelloWorld\obj\Debug\HelloWorld.pdb

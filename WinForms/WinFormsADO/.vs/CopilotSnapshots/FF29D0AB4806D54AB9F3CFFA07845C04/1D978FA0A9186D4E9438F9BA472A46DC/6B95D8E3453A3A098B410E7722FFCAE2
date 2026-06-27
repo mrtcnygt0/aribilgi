@@ -1,0 +1,56 @@
+﻿using System;
+using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Windows.Forms;
+
+namespace WinFormsADO
+{
+    public class BigCheckBox : CheckBox
+    {
+        public BigCheckBox()
+        {
+            // Enable owner drawing
+            SetStyle(ControlStyles.UserPaint | ControlStyles.AllPaintingInWmPaint | ControlStyles.OptimizedDoubleBuffer, true);
+            this.Text = string.Empty;
+            this.AutoSize = false;
+            this.BackColor = Color.Transparent;
+        }
+
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            var g = e.Graphics;
+            g.SmoothingMode = SmoothingMode.AntiAlias;
+
+            // fill background
+            using (var b = new SolidBrush(this.BackColor))
+            {
+                g.FillRectangle(b, this.ClientRectangle);
+            }
+
+            // draw outer box
+            int margin = 2;
+            Rectangle box = new Rectangle(margin, margin, this.Width - margin * 2 - 1, this.Height - margin * 2 - 1);
+            using (var pen = new Pen(Color.LightGray, 1))
+            {
+                g.DrawRectangle(pen, box);
+            }
+
+            // draw check if checked
+            if (this.Checked)
+            {
+                float w = box.Width;
+                float h = box.Height;
+                using (var pen = new Pen(Color.Lime, Math.Max(2, (int)(w / 8))))
+                {
+                    pen.StartCap = LineCap.Round;
+                    pen.EndCap = LineCap.Round;
+                    PointF p1 = new PointF(box.Left + w * 0.20f, box.Top + h * 0.55f);
+                    PointF p2 = new PointF(box.Left + w * 0.45f, box.Top + h * 0.80f);
+                    PointF p3 = new PointF(box.Left + w * 0.85f, box.Top + h * 0.25f);
+                    g.DrawLine(pen, p1, p2);
+                    g.DrawLine(pen, p2, p3);
+                }
+            }
+        }
+    }
+}
