@@ -1,0 +1,11 @@
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\OkulADO\bin\Debug\OkulADO.exe.config
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\OkulADO\bin\Debug\OkulADO.exe
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\OkulADO\bin\Debug\OkulADO.pdb
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\OkulADO\obj\Debug\OkulADO.csproj.AssemblyReference.cache
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\OkulADO\obj\Debug\OkulADO.AnaForm.resources
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\OkulADO\obj\Debug\OkulADO.Properties.Resources.resources
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\OkulADO\obj\Debug\OkulADO.csproj.GenerateResource.cache
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\OkulADO\obj\Debug\OkulADO.csproj.CoreCompileInputs.cache
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\OkulADO\obj\Debug\OkulADO.exe
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\OkulADO\obj\Debug\OkulADO.pdb
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\OkulADO\obj\Debug\OkulADO.OgrKayit.resources
