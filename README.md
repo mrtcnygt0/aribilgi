@@ -6,12 +6,12 @@ Bu repo, **ARI BİLGİ yazılım kursu** süresince aldığım derslerin, notlar
 
 Bu repository içerisinde aşağıdaki konulara ait çalışmalar yer alacaktır:
 
-- 💻 Programlama temelleri  
-- 🧠 Algoritma ve veri yapıları  
-- 🌐 Web geliştirme (HTML, CSS, JavaScript)  
-- 🗄️ Veritabanı işlemleri  
-- ⚙️ Backend geliştirme  
-- 📦 Proje örnekleri ve uygulamalar  
+- 💻 Programlama temelleri
+- 🧠 Algoritma ve veri yapıları
+- 🌐 Web geliştirme (HTML, CSS, JavaScript)
+- 🗄️ Veritabanı işlemleri
+- ⚙️ Backend geliştirme
+- 📦 Proje örnekleri ve uygulamalar
 
 > İçerikler kurs sürecine paralel olarak güncellenmektedir.
 
@@ -19,38 +19,39 @@ Bu repository içerisinde aşağıdaki konulara ait çalışmalar yer alacaktır
 
 - /ConsoleApps
 - /WinForms
+- /Web
 - ...
 - /
 - /
 
-
 ## 🎯 Amaç
 
-- Öğrendiklerimi düzenli şekilde arşivlemek  
-- Tekrar edilebilir kaynak oluşturmak  
-- Benzer eğitim alan kişiler için referans sağlamak  
+- Öğrendiklerimi düzenli şekilde arşivlemek
+- Tekrar edilebilir kaynak oluşturmak
+- Benzer eğitim alan kişiler için referans sağlamak
 
 ## 🛠️ Kullanılacak Teknolojiler
 
-- HTML  
-- CSS  
-- JavaScript  
+- HTML
+- CSS
+- JavaScript
 - C#
 
 ## 📌 Notlar
 
-- Bu repo tamamen eğitim amaçlıdır.  
-- İçerikler zamanla güncellenebilir ve geliştirilebilir.  
+- Bu repo tamamen eğitim amaçlıdır.
+- İçerikler zamanla güncellenebilir ve geliştirilebilir.
 - Hatalı veya eksik gördüğünüz yerler için katkı sağlayabilirsiniz.
 
 ## 🤝 Katkı
 
 Katkıda bulunmak isterseniz:
 
-1. Fork yapın  
-2. Değişikliklerinizi yapın  
-3. Pull Request gönderin  
+1. Fork yapın
+2. Değişikliklerinizi yapın
+3. Pull Request gönderin
 
 ## 📬 İletişim
 
 Herhangi bir öneri veya geri bildirim için benimle iletişime geçebilirsiniz.
+mertcanyigit54@outlook.com
