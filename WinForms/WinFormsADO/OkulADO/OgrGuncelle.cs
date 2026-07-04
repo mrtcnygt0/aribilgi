@@ -19,16 +19,12 @@ namespace OkulADO
 
         SqlCommand cmdUpdate = new SqlCommand("UPDATE Ogrenciler SET Ad = @Ad, Soyad = @Soyad, Sinif = @Sinif, Sube = @Sube, KayitTarih = @KayitTarih, Uyruk = @Uyruk, Aciklama = @Aciklama, Mezun = @Mezun WHERE OgrNO = @OgrenciID");
 
-<<<<<<< HEAD
+// HEAD
         SqlCommand cmdAra = new SqlCommand("SELECT OgrNO, Ad, Soyad, Sinif, Sube, KayitTarih, Uyruk, Aciklama, Mezun " + "FROM Ogrenciler " + "WHERE Ad LIKE @Ara OR Soyad LIKE @Ara");
 
         private int secilenOgrenciID;
 
-        /*
-=======
-        private int secilenOgrenciID;
 
->>>>>>> 63620e45edfceb8a922fcb4a4f55438ec242b0d6
         private void ListeyiYenile()
         {
             SqlDataAdapter adapter = new SqlDataAdapter(cmdSelect.CommandText, conn);
@@ -37,19 +33,15 @@ namespace OkulADO
             dgvListe.DataSource = dt;
 
         }
-<<<<<<< HEAD
-        */
-=======
->>>>>>> 63620e45edfceb8a922fcb4a4f55438ec242b0d6
+
+
 
         private void BtnReset()
         {
             btnKaydet.Enabled = true;
             btnSil.Enabled = false;
-<<<<<<< HEAD
+
             txtAra.Text = string.Empty;
-=======
->>>>>>> 63620e45edfceb8a922fcb4a4f55438ec242b0d6
         }
 
         private void Temizle()
@@ -164,10 +156,6 @@ namespace OkulADO
         private void btnKaydet_Click(object sender, EventArgs e)
         {
             Kontrol();
-<<<<<<< HEAD
-            
-=======
->>>>>>> 63620e45edfceb8a922fcb4a4f55438ec242b0d6
         }
 
         private void dgvListe_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -242,7 +230,7 @@ namespace OkulADO
         {
             Temizle();
         }
-<<<<<<< HEAD
+
 
         private void txtAra_TextChanged(object sender, EventArgs e)
         {
@@ -270,7 +258,6 @@ namespace OkulADO
 
             dgvListe.DataSource = dt;
         }
-=======
->>>>>>> 63620e45edfceb8a922fcb4a4f55438ec242b0d6
+
     }
 }

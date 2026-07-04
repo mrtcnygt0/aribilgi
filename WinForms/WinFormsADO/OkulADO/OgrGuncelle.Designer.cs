@@ -49,18 +49,17 @@
             this.label4 = new System.Windows.Forms.Label();
             this.btnKaydet = new System.Windows.Forms.Button();
             this.dgvListe = new System.Windows.Forms.DataGridView();
-<<<<<<< HEAD
+
             this.txtAra = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.gbEgitimBilgi.SuspendLayout();
             this.gbOgrBilgi.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListe)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-=======
+
             this.gbEgitimBilgi.SuspendLayout();
             this.gbOgrBilgi.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvListe)).BeginInit();
->>>>>>> 63620e45edfceb8a922fcb4a4f55438ec242b0d6
+
             this.SuspendLayout();
             // 
             // txtAciklama
@@ -324,7 +323,7 @@
             this.dgvListe.TabIndex = 29;
             this.dgvListe.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListe_CellClick);
             // 
-<<<<<<< HEAD
+
             // txtAra
             // 
             this.txtAra.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -345,19 +344,17 @@
             this.pictureBox1.TabIndex = 30;
             this.pictureBox1.TabStop = false;
             // 
-=======
->>>>>>> 63620e45edfceb8a922fcb4a4f55438ec242b0d6
+
             // OgrGuncelle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(46)))), ((int)(((byte)(45)))));
             this.ClientSize = new System.Drawing.Size(800, 757);
-<<<<<<< HEAD
+
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtAra);
-=======
->>>>>>> 63620e45edfceb8a922fcb4a4f55438ec242b0d6
+
             this.Controls.Add(this.dgvListe);
             this.Controls.Add(this.txtAciklama);
             this.Controls.Add(this.btnSil);
@@ -373,10 +370,8 @@
             this.gbOgrBilgi.ResumeLayout(false);
             this.gbOgrBilgi.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListe)).EndInit();
-<<<<<<< HEAD
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-=======
->>>>>>> 63620e45edfceb8a922fcb4a4f55438ec242b0d6
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -404,10 +399,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnKaydet;
         private System.Windows.Forms.DataGridView dgvListe;
-<<<<<<< HEAD
+
         private System.Windows.Forms.TextBox txtAra;
         private System.Windows.Forms.PictureBox pictureBox1;
-=======
->>>>>>> 63620e45edfceb8a922fcb4a4f55438ec242b0d6
+
     }
 }

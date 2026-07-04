@@ -19,8 +19,7 @@ namespace OkulADO
 
         SqlCommand cmdDelete = new SqlCommand("DELETE FROM Ogrenciler WHERE OgrNO = @OgrenciID");
 
-<<<<<<< HEAD
-        SqlCommand cmdAra = new SqlCommand("SELECT OgrNO, Ad, Soyad, Sinif, Sube, KayitTarih, Uyruk, Aciklama, Mezun " + "FROM Ogrenciler " + "WHERE Ad LIKE @Ara OR Soyad LIKE @Ara");
+        SqlCommand cmdAra = new SqlCommand("SELECT OgrNO, Ad, Soyad, Sinif, Sube, KayitTarih, Uyruk, Aciklama, Mezun " + "FROM Ogrenciler " + "WHERE Ad LIKE '@Ara' OR Soyad LIKE '@Ara'");
 
         private int secilenOgrenciID;
 
@@ -44,8 +43,7 @@ namespace OkulADO
             }
 
             dgvListe.DataSource = dt;
-=======
-        private int secilenOgrenciID;
+        }
 
         private void ListeyiYenile()
         {
@@ -54,7 +52,6 @@ namespace OkulADO
             adapter.Fill(dt);
             dgvListe.DataSource = dt;
 
->>>>>>> 63620e45edfceb8a922fcb4a4f55438ec242b0d6
         }
 
         public OgrSil()
@@ -126,7 +123,6 @@ namespace OkulADO
             btnSil.Enabled = false;
             chkOnay.Checked = false;
             lblSecilenOgr.Text = string.Empty;
-<<<<<<< HEAD
 
             txtAra.Text = string.Empty;
         }
@@ -134,8 +130,6 @@ namespace OkulADO
         private void txtAra_TextChanged(object sender, EventArgs e)
         {
             ListeyiYenile(txtAra.Text.Trim());
-=======
->>>>>>> 63620e45edfceb8a922fcb4a4f55438ec242b0d6
         }
     }
 }

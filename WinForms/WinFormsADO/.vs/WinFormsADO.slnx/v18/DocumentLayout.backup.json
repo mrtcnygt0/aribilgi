@@ -3,36 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\winforms\\winformsado\\okulado\\anaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|solutionrelative:okulado\\anaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\okulado\\ogrguncelle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|solutionrelative:okulado\\ogrguncelle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\okulado\\ogrsil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|solutionrelative:okulado\\ogrsil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\okulado\\anaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|solutionrelative:okulado\\anaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\winforms\\winformsado\\okulado\\ogrsil.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|solutionrelative:okulado\\ogrsil.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\okulado\\ogrguncelle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\winforms\\winformsado\\okulado\\ogrguncelle.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|solutionrelative:okulado\\ogrguncelle.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\winforms\\winformsado\\okulado\\ogrsil.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|solutionrelative:okulado\\ogrsil.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\winforms\\winformsado\\okulado\\ogrguncelle.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|solutionrelative:okulado\\ogrguncelle.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\winforms\\winformsado\\okulado\\ogrguncelle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|solutionrelative:okulado\\ogrguncelle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\okulado\\ogrkayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|solutionrelative:okulado\\ogrkayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\okulado\\ogrsil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|solutionrelative:okulado\\ogrsil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\okulado\\ogrkayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|solutionrelative:okulado\\ogrkayit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\okulado\\anaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|solutionrelative:okulado\\anaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\okulado\\ogrguncelle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3B0073AF-1DC6-468C-843B-9663DED30206}|OkulADO\\OkulADO.csproj|solutionrelative:okulado\\ogrguncelle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,76 +82,96 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OgrSil.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrSil.Designer.cs",
+              "RelativeDocumentMoniker": "OkulADO\\OgrSil.Designer.cs",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrSil.Designer.cs",
+              "RelativeToolTip": "OkulADO\\OgrSil.Designer.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAewCgAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T12:06:52.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OgrSil.resx",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrSil.resx",
+              "RelativeDocumentMoniker": "OkulADO\\OgrSil.resx",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrSil.resx",
+              "RelativeToolTip": "OkulADO\\OgrSil.resx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAjwH4FAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-07-04T12:06:35.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OgrGuncelle.resx",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrGuncelle.resx",
+              "RelativeDocumentMoniker": "OkulADO\\OgrGuncelle.resx",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrGuncelle.resx",
+              "RelativeToolTip": "OkulADO\\OgrGuncelle.resx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-07-04T12:05:46.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OgrGuncelle.cs",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrGuncelle.cs",
+              "RelativeDocumentMoniker": "OkulADO\\OgrGuncelle.cs",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrGuncelle.cs",
+              "RelativeToolTip": "OkulADO\\OgrGuncelle.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAywJ0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T12:03:13.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "OgrGuncelle.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrGuncelle.Designer.cs",
+              "RelativeDocumentMoniker": "OkulADO\\OgrGuncelle.Designer.cs",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrGuncelle.Designer.cs",
+              "RelativeToolTip": "OkulADO\\OgrGuncelle.Designer.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAnwDwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T11:58:37.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "OgrSil.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrSil.cs",
               "RelativeDocumentMoniker": "OkulADO\\OgrSil.cs",
               "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrSil.cs [Tasar\u0131m]",
               "RelativeToolTip": "OkulADO\\OgrSil.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T09:53:44.986Z"
+              "WhenOpened": "2026-07-04T09:53:44.986Z",
+              "EditorCaption": " [Tasar\u0131m]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "OgrGuncelle.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrGuncelle.cs",
               "RelativeDocumentMoniker": "OkulADO\\OgrGuncelle.cs",
               "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrGuncelle.cs [Tasar\u0131m]",
               "RelativeToolTip": "OkulADO\\OgrGuncelle.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T08:45:11.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OgrKayit.cs",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrKayit.cs",
-              "RelativeDocumentMoniker": "OkulADO\\OgrKayit.cs",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrKayit.cs",
-              "RelativeToolTip": "OkulADO\\OgrKayit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T09:01:49.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OgrKayit.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrKayit.cs",
-              "RelativeDocumentMoniker": "OkulADO\\OgrKayit.cs",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrKayit.cs [Tasar\u0131m]",
-              "RelativeToolTip": "OkulADO\\OgrKayit.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T09:01:48.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OgrGuncelle.cs",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrGuncelle.cs",
-              "RelativeDocumentMoniker": "OkulADO\\OgrGuncelle.cs",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrGuncelle.cs",
-              "RelativeToolTip": "OkulADO\\OgrGuncelle.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAqwCgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T08:46:50.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AnaForm.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\AnaForm.cs",
-              "RelativeDocumentMoniker": "OkulADO\\AnaForm.cs",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\AnaForm.cs [Tasar\u0131m]",
-              "RelativeToolTip": "OkulADO\\AnaForm.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T20:30:52.438Z",
+              "WhenOpened": "2026-07-04T08:45:11.226Z",
               "EditorCaption": " [Tasar\u0131m]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "AnaForm.cs",
               "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\AnaForm.cs",
               "RelativeDocumentMoniker": "OkulADO\\AnaForm.cs",
@@ -155,7 +179,8 @@
               "RelativeToolTip": "OkulADO\\AnaForm.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAiwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T10:04:28.117Z"
+              "WhenOpened": "2026-07-04T10:04:28.117Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -165,9 +190,10 @@
               "RelativeDocumentMoniker": "OkulADO\\OgrSil.cs",
               "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\WinForms\\WinFormsADO\\OkulADO\\OgrSil.cs",
               "RelativeToolTip": "OkulADO\\OgrSil.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAIwHUAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T09:54:36.995Z"
+              "WhenOpened": "2026-07-04T09:54:36.995Z",
+              "EditorCaption": ""
             }
           ]
         }
