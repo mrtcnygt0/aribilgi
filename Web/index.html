@@ -2,7 +2,7 @@
 <html lang="tr">
   <head>
     <meta charset="utf-8" />
-    <title>Hello World</title>
+    <title>HTML ÖĞRENİYORUM</title>
     <meta name="keywords" content="HTML, CSS, JavaScript" />
   </head>
   <body>
@@ -20,7 +20,7 @@
     <hr />
     <h2>HTML Nedir?</h2>
     <p>
-      HTML (Hypertext Markup Language), web sayfalarını oluşturmak için
+      <i>HTML (Hypertext Markup Language)</i>, web sayfalarını oluşturmak için
       kullanılan bir işaretleme dilidir. <b><span style="color: red;">HTML</span></b>, metin, resim, video ve
       diğer medya türlerini web sayfalarında düzenlemek ve sunmak için
       kullanılır.
@@ -28,7 +28,7 @@
     <hr />
     <h2>CSS Nedir?</h2>
     <p>
-      CSS (Cascading Style Sheets), web sayfalarının görünümünü ve düzenini
+      <i>CSS (Cascading Style Sheets)</i>, web sayfalarının görünümünü ve düzenini
       kontrol etmek için kullanılan bir stil dilidir. <b>CSS</b>, HTML ile
       birlikte kullanılarak web sayfalarının tasarımını ve kullanıcı deneyimini
       iyileştirir.
@@ -98,22 +98,110 @@
     <!-- Tablo hakkında kısa bilgi -->
     <h2>Tablo Nedir? "< table >"</h2>
     <p>HTML'de tablo tag'leri, verileri satır ve sütunlar halinde düzenlemek için kullanılır. Tablo tag'leri, web sayfalarında verilerin daha düzenli ve anlaşılır bir şekilde sunulmasını sağlar.</p>
-    <table border="10" style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+    <table border="10" style="width: 100%; margin-top: 20px;">
       <tr>
         <th>Fotoğraf</th>
         <th>İsim Soyisim</th>
         <th>Sınıf</th>
       </tr>
       <tr>
-        <td><img src="images/tilki.png" alt="Tilki Resmi" title="Tilki Resmi" style="width: 60px; height: auto;" /></td>
-        <td>ForkSight</td>
-        <td>5. Sınıf</td>
+        <td style="width: 64px;"><img src="images/tilki.png" alt="Tilki Resmi" title="Tilki Resmi" style="width: 60px; height: auto;" /></td>
+        <td style="text-align: center;">ForkSight</td>
+        <td style="text-align: center;">5. Sınıf</td>
       </tr>
       <tr>
-        <td><img src="images/tilki2.png" alt="Tilki Resmi" title="Tilki Resmi" style="width: 60px; height: auto;" /></td>
-        <td>Chesscom</td>
-        <td>6. Sınıf</td>
+        <td style="width: 64px;"><img src="images/tilki2.png" alt="Tilki Resmi" title="Tilki Resmi" style="width: 60px; height: auto;" /></td>
+        <td style="text-align: center;">Chesscom</td>
+        <td style="text-align: center;">6. Sınıf</td>
       </tr>
     </table>
+
+    <hr />
+    <h2>Bilgi Formu</h2>
+    <table>
+      <tr><td><label>*Ad:</label></td> <td><input type="text" /></td></tr>
+      <tr><td><label>*Soyad:</label></td> <td><input type="text" /></td></tr>
+      <tr><td><label>*Yaş:</label></td> <td><input type="number" /></td></tr>
+      <tr><td><label>*Cinsiyet:</label></td><td><input type="radio" name="cinsiyet" value="erkek" /> Erkek 
+        <input type="radio" name="cinsiyet" value="kadin" /> Kadın</td></tr>
+      <tr><td><label>*Mail:</label></td> <td><input type="email" /></td></tr>
+      <tr><td><label>*Onay:</label></td><td><input type="checkbox" /> KVKK</td></tr>
+      <tr><td><input type="submit" value="Gönder" title="Formu Gönder" /></td></tr>
+      
+    </table>
+
+    <hr />
+    <h2>Biz Sizi Arayalım</h2>
+    <table>
+      <tr>
+        <td><input type="text" placeholder="İsim Soyisim"/></td>
+      </tr>
+      <tr>
+        <td><input type="tel" placeholder="Telefon Numarası"/></td>
+      </tr>
+      <tr>
+        <td><input type="email" placeholder="Email"/></td>
+      </tr>
+      <tr>
+        <td><label>Şube:</label></td>
+      </tr>
+      <tr>
+        <td>
+          <select>
+            <option value="secenek1">Kadıköy</option>
+            <option value="secenek2">Şirinevler</option>
+            <option value="secenek3">Pendik</option>
+          </select>
+        </td>
+      </tr>
+      <tr><td><input type="submit" value="Gönder" /></td></tr>
+    </table>
+
+
+    <hr />
+
+    <h2>Bilgi Al</h2>
+
+    <table border="20" style="width: 100%; margin-top: 20px; height: 200px">
+      <tr>
+        <th colspan="3" style="text-align: center;">ŞUBELERİMİZ</th>
+      </tr>
+      <tr>
+        <th>Şube Adı</th>
+        <th>Adres</th>
+        <th>Telefon</th>
+      </tr>
+      <tr>
+        <td>Kadıköy</td>
+        <td>Kadıköy, İstanbul</td>
+        <td><a href="tel:+902161234567">(0216) 123 45 67</a></td>
+      </tr>
+      <tr>
+        <td>Şirinevler</td>
+        <td>Şirinevler, İstanbul</td>
+        <td><a href="tel:+902129876543">(0212) 987 65 43</a></td>
+      </tr>
+      <tr>
+        <td>Pendik</td>
+        <td>Pendik, İstanbul</td>
+        <td><a href="tel:+902164444444">(0216) 444 44 44</a></td>
+      </tr>
+    </table>
+
+    <hr />
+    <h2>Örnek</h2>
+    
+    <table border="10" style="width: 100%; margin-top: 20px; height: auto;">
+      <tr>
+        <th width="15%" height="100px" style="background-color: orange;">Başlık 1</th>
+        <th width="85%" style="background-color: lightgreen;">Başlık 2</th>
+      </tr>
+      <tr>
+        <td height="500px" style="background-color: blueviolet;">Veri 1</td>
+        <td width="85%" style="background-color: magenta;">Veri 2</td>
+      </tr>
+    </table>
+
+  
   </body>
 </html>
