@@ -36,6 +36,12 @@ namespace OkulADO
             btnSil.Enabled = false;
         }
 
+        private void BtnAktif()
+        {
+            btnKaydet.Enabled = true;
+            btnSil.Enabled = true;
+        }
+
         public OgrKayit()
         {
             InitializeComponent();
@@ -53,18 +59,60 @@ namespace OkulADO
 
         private void btnKaydet_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtAd.Text))
+            {
+                MessageBox.Show("Lütfen öğrencinin adını giriniz.", "Eksik Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtAd.Focus();
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtSoyisim.Text))
+            {
+                MessageBox.Show("Lütfen öğrencinin soyadını giriniz.", "Eksik Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtSoyisim.Focus();
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(cmbSinif.Text))
+            {
+                MessageBox.Show("Lütfen sınıf seçiniz.", "Eksik Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                cmbSinif.Focus();
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(cmbSube.Text))
+            {
+                MessageBox.Show("Lütfen şube seçiniz.", "Eksik Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                cmbSube.Focus();
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(cmbUyruk.Text))
+            {
+                MessageBox.Show("Lütfen uyruk seçiniz.", "Eksik Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                cmbUyruk.Focus();
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(cmbMezun.Text))
+            {
+                MessageBox.Show("Lütfen mezun bilgisini seçiniz.", "Eksik Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                cmbMezun.Focus();
+                return;
+            }
+
             cmdInsertOgrenci.Connection = conn;
             cmdInsertOgrenci.Parameters.Clear();
 
 
-            cmdInsertOgrenci.Parameters.AddWithValue("@Ad", txtAd.Text);
-            cmdInsertOgrenci.Parameters.AddWithValue("@Soyad", txtSoyisim.Text);
-            cmdInsertOgrenci.Parameters.AddWithValue("@Sinif", cmbSinif.SelectedItem.ToString());
-            cmdInsertOgrenci.Parameters.AddWithValue("@Sube", cmbSube.SelectedItem.ToString());
+            cmdInsertOgrenci.Parameters.AddWithValue("@Ad", txtAd.Text.Trim());
+            cmdInsertOgrenci.Parameters.AddWithValue("@Soyad", txtSoyisim.Text.Trim());
+            cmdInsertOgrenci.Parameters.AddWithValue("@Sinif", cmbSinif.Text);
+            cmdInsertOgrenci.Parameters.AddWithValue("@Sube", cmbSube.Text);
             cmdInsertOgrenci.Parameters.AddWithValue("@KayitTarih", dtpTarih.Value);
-            cmdInsertOgrenci.Parameters.AddWithValue("@Uyruk", cmbUyruk.SelectedItem.ToString());
+            cmdInsertOgrenci.Parameters.AddWithValue("@Uyruk", cmbUyruk.Text);
             cmdInsertOgrenci.Parameters.AddWithValue("@Aciklama", txtAciklama.Text);
-            cmdInsertOgrenci.Parameters.AddWithValue("@Mezun", cmbMezun.SelectedItem.ToString());
+            cmdInsertOgrenci.Parameters.AddWithValue("@Mezun", cmbMezun.Text);
 
             if (conn.State != ConnectionState.Open)
             {
@@ -78,7 +126,7 @@ namespace OkulADO
                 conn.Close();
             }
 
-            MessageBox.Show(txtAd.Text + " " + txtSoyisim.Text + " öğrencisi başarıyla eklendi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(txtAd.Text.Trim() + " " + txtSoyisim.Text.Trim() + " öğrencisi başarıyla eklendi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Temizle();
             BtnReset();
 
@@ -92,42 +140,47 @@ namespace OkulADO
 
         private void txtAd_TextChanged(object sender, EventArgs e)
         {
-            btnSil.Enabled = true;
+            BtnAktif();
         }
 
         private void txtSoyisim_TextChanged(object sender, EventArgs e)
         {
-            btnSil.Enabled = true;
+            BtnAktif();
         }
 
         private void cmbUyruk_SelectedIndexChanged(object sender, EventArgs e)
         {
-            btnSil.Enabled = true;
+            BtnAktif();
         }
 
         private void cmbMezun_SelectedIndexChanged(object sender, EventArgs e)
         {
-            btnSil.Enabled = true;
+            BtnAktif();
         }
 
         private void txtAciklama_TextChanged(object sender, EventArgs e)
         {
-            btnSil.Enabled = true;
+            BtnAktif();
         }
 
         private void cmbSinif_SelectedIndexChanged(object sender, EventArgs e)
         {
-            btnSil.Enabled = true;
+            BtnAktif();
         }
 
         private void cmbSube_SelectedIndexChanged(object sender, EventArgs e)
         {
-            btnSil.Enabled = true;
+            BtnAktif();
         }
 
         private void dtpTarih_ValueChanged(object sender, EventArgs e)
         {
-            btnSil.Enabled = true;
+            BtnAktif();
+        }
+
+        private void OgrKayit_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,0 +1,121 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+
+namespace OkulADO
+{
+    public partial class AnaForm : Form
+    {
+        public SqlConnection conn = new SqlConnection("Server=MERT\\SQLEXPRESS;Database=OgrenciDB;Integrated Security=True;Encrypt=False;");
+
+        SqlCommand cmdSelect = new SqlCommand("SELECT OgrNO, Ad, Soyad, Sinif, Sube, KayitTarih, Uyruk, Aciklama, Mezun FROM Ogrenciler");
+
+        SqlCommand cmdAktif = new SqlCommand("SELECT COUNT(*) FROM Ogrenciler WHERE Mezun = 'HAYIR'");
+
+        SqlCommand cmdMezun = new SqlCommand("SELECT COUNT(*) FROM Ogrenciler WHERE Mezun = 'EVET'");
+
+
+        public AnaForm()
+        {
+            InitializeComponent();
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void kapatToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Çıkmak istediğinize emin misiniz messagebox
+            DialogResult result = MessageBox.Show("Çıkmak istediğinize emin misiniz?",
+                "Çıkış", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void dosyaToolStripMenuItem_MouseHover(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void AnaForm_Load(object sender, EventArgs e)
+        {
+            ListeyiYenile();
+            AktifOgrenciSayisi();
+
+        }
+
+        private void MezunOgrenciSayisi()
+        {
+            cmdMezun.Connection = conn;
+            if (conn.State != ConnectionState.Open)
+            {
+                conn.Open();
+            }
+            int mezunOgrenciSayisi = (int)cmdMezun.ExecuteScalar();
+            if (conn.State != ConnectionState.Closed)
+            {
+                conn.Close();
+            }
+            lblMezun.Text = mezunOgrenciSayisi.ToString();
+        }
+
+        private void AktifOgrenciSayisi()
+        {
+            cmdAktif.Connection = conn;
+            if (conn.State != ConnectionState.Open)
+            {
+                conn.Open();
+            }
+            int aktifOgrenciSayisi = int.Parse(cmdAktif.ExecuteScalar().ToString());
+            if (conn.State != ConnectionState.Closed)
+            {
+                conn.Close();
+            }
+            lblAktif.Text = aktifOgrenciSayisi.ToString();
+        }
+
+        private void ToplamOgrenciSayisi()
+        {
+            int toplamOgrenciSayisi = int.Parse(cmdAktif.ExecuteScalar().ToString()) + int.Parse(cmdMezun.ExecuteScalar().ToString());
+            lblToplam.Text = toplamOgrenciSayisi.ToString();
+        }
+
+        private void ListeyiYenile()
+        {
+            SqlDataAdapter adapter = new SqlDataAdapter(cmdSelect.CommandText, conn);
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+            dgvListe.DataSource = dt;
+
+        }
+
+        private void öğrenciKayıtToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            OgrKayit ogrkayit = new OgrKayit();
+            ogrkayit.ShowDialog();
+        }
+
+        private void öğrenciGüncellemeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OgrGuncelle ogrguncelle = new OgrGuncelle();
+            ogrguncelle.ShowDialog();
+        }
+
+        private void öğrenciSilmeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OgrSil ogrsil = new OgrSil(); 
+            ogrsil.ShowDialog();
+        }
+    }
+}

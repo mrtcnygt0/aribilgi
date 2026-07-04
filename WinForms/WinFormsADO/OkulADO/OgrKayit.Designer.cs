@@ -322,9 +322,10 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(816, 290);
             this.Name = "OgrKayit";
-            this.Opacity = 0.9D;
+            this.Opacity = 0.95D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Öğrenci Kayıt Formu";
+            this.Load += new System.EventHandler(this.OgrKayit_Load);
             this.gbOgrBilgi.ResumeLayout(false);
             this.gbOgrBilgi.PerformLayout();
             this.gbEgitimBilgi.ResumeLayout(false);

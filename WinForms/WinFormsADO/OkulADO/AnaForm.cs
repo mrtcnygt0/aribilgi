@@ -9,11 +9,19 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
+
 namespace OkulADO
 {
     public partial class AnaForm : Form
     {
-        SqlConnection conn = new SqlConnection("Data Source=MERT\\SQLEXPRESS;Initial Catalog=OgrenciDB;Integrated Security=True;Encrypt=False;");
+        public SqlConnection conn = new SqlConnection("Server=MERT\\SQLEXPRESS;Database=OgrenciDB;Integrated Security=True;Encrypt=False;");
+
+        SqlCommand cmdSelect = new SqlCommand("SELECT OgrNO, Ad, Soyad, Sinif, Sube, KayitTarih, Uyruk, Aciklama, Mezun FROM Ogrenciler");
+
+        SqlCommand cmdAktif = new SqlCommand("SELECT COUNT(*) FROM Ogrenciler WHERE Mezun = 'HAYIR'");
+
+        SqlCommand cmdMezun = new SqlCommand("SELECT COUNT(*) FROM Ogrenciler WHERE Mezun = 'EVET'");
+
 
         public AnaForm()
         {
@@ -43,6 +51,63 @@ namespace OkulADO
 
         private void AnaForm_Load(object sender, EventArgs e)
         {
+            ListeyiYenile();
+            AktifOgrenciSayisi();
+            MezunOgrenciSayisi();
+            ToplamOgrenciSayisi();
+
+        }
+
+        private void MezunOgrenciSayisi()
+        {
+            cmdMezun.Connection = conn;
+            if (conn.State != ConnectionState.Open)
+            {
+                conn.Open();
+            }
+            int mezunOgrenciSayisi = (int)cmdMezun.ExecuteScalar();
+            if (conn.State != ConnectionState.Closed)
+            {
+                conn.Close();
+            }
+            lblMezun.Text = mezunOgrenciSayisi.ToString();
+        }
+
+        private void AktifOgrenciSayisi()
+        {
+            cmdAktif.Connection = conn;
+            if (conn.State != ConnectionState.Open)
+            {
+                conn.Open();
+            }
+            int aktifOgrenciSayisi = int.Parse(cmdAktif.ExecuteScalar().ToString());
+            if (conn.State != ConnectionState.Closed)
+            {
+                conn.Close();
+            }
+            lblAktif.Text = aktifOgrenciSayisi.ToString();
+        }
+
+        private void ToplamOgrenciSayisi()
+        {
+            if (conn.State != ConnectionState.Open)
+            {
+                conn.Open();
+            }
+            int toplamOgrenciSayisi = int.Parse(cmdAktif.ExecuteScalar().ToString()) + int.Parse(cmdMezun.ExecuteScalar().ToString());
+            if (conn.State != ConnectionState.Closed)
+            {
+                conn.Close();
+            }
+            lblToplam.Text = toplamOgrenciSayisi.ToString();
+        }
+
+        private void ListeyiYenile()
+        {
+            SqlDataAdapter adapter = new SqlDataAdapter(cmdSelect.CommandText, conn);
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+            dgvListe.DataSource = dt;
 
         }
 
@@ -50,6 +115,35 @@ namespace OkulADO
         {
             OgrKayit ogrkayit = new OgrKayit();
             ogrkayit.ShowDialog();
+        }
+
+        private void öğrenciGüncellemeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OgrGuncelle ogrguncelle = new OgrGuncelle();
+            ogrguncelle.ShowDialog();
+        }
+
+        private void öğrenciSilmeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OgrSil ogrsil = new OgrSil(); 
+            ogrsil.ShowDialog();
+        }
+
+        private void yenileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ListeyiYenile();
+            AktifOgrenciSayisi();
+            MezunOgrenciSayisi();
+            ToplamOgrenciSayisi();
+            MessageBox.Show("Liste yenilendi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void yazdırToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // dvgListe yazdırma işlemini yapacak kodlar buraya gelecek
+
+
+
         }
     }
 }

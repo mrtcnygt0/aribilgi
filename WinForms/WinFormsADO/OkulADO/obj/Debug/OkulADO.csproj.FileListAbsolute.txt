@@ -9,3 +9,5 @@ C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\OkulADO\obj\Debug\
 C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\OkulADO\obj\Debug\OkulADO.exe
 C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\OkulADO\obj\Debug\OkulADO.pdb
 C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\OkulADO\obj\Debug\OkulADO.OgrKayit.resources
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\OkulADO\obj\Debug\OkulADO.OgrGuncelle.resources
+C:\Users\mertc\Documents\GitHub\aribilgi\WinForms\WinFormsADO\OkulADO\obj\Debug\OkulADO.OgrSil.resources
