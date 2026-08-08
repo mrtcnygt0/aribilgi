@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      function MesajVer() {
+        alert("Merhaba! Bu bir uyarıdır.");
+      }
+    </script>
+  </head>
+  <body>
+    <h1 id="baslik">Javascript</h1>
+    <p>
+      Javascript web sayfalarını zenginleştirme, kodla daha etkili ve daha
+      görselliği yüksek sayfalar oluşturmayı sağlar. HTML içerisinde olmayan
+      işlevleri, animasyonları, hesaplama gerektiren işlemleri yerine getirmek
+      için js kullanılır.
+    </p>
+    <hr />
+    <h5>Yazım Teknikleri</h5>
+    <ol>
+      <li>
+        Inline (Satır içi) yazım:
+        <input type="button" value="Hesapla" onclick="alert('xxxxx')" />
+      </li>
+      <li>
+        Internal (Dahili) yazım:
+        <input type="button" value="Hesapla" onclick="MesajVer()" />
+      </li>
+      <li>
+        External (Dış) yazım:
+        <input type="button" value="Hesapla" onclick="MesajVer2()" />
+      </li>
+    </ol>
+
+    <hr />
+    <h3>Javascript Kodlama</h3>
+    <p>HTML DOM: Document Object Model</p>
+    <p>
+      HTML sayfa yapısını temsil eder. En tepede HTML Document nesnesi bulunur.
+      Ona bağlı HEAD ve BODY olarak 2 alt nesne vardır. Title ve meta içerikleri
+      HEAD altında, sayfa içerikleri ise BODY altında yer alır.
+    </p>
+
+    <input type="button" value="Click Me" onclick="MesajVer()" />
+
+    <input
+      type="button"
+      value="Click Me Too"
+      onclick="alert('Merhaba! Bu da bir uyarıdır.')"
+    />
+
+    <ol>
+      <li>
+        Nesne ID' si ile:
+        <input type="button" value="Başlık Alert" onclick="BaslikAlert()" />
+        <input
+          type="button"
+          value="Başlık Değiştir"
+          onclick="BaslikDegistir()"
+        />
+        <input
+          type="button"
+          value="Göster / Gizle"
+          onclick="BaslikGosterGizle()"
+        />
+      </li>
+    </ol>
+
+    <hr />
+    <h2>
+      Javascript ile Form Nesnelerinden veri çekme, veri aktarma, hesaplama
+      yapma , if-else
+    </h2>
+    <p>
+      Sayfa üzerinde bulunan Form nesnelerinden (input) veri çekme, veri aktarma
+      ve hesaplama işlemleri yapılabilir.
+    </p>
+    <h3>Örnek: Hesap Makinesi</h3>
+    <table>
+      <tr>
+        <td>
+          <input type="number" placeholder="1. Sayıyı Giriniz" id="sayi1" />
+        </td>
+        <td>
+          <select id="selection">
+            <option value="topla">Topla</option>
+            <option value="cikar">Çıkar</option>
+            <option value="carp">Çarp</option>
+            <option value="bol">Böl</option>
+          </select>
+        </td>
+        <td>
+          <input type="number" placeholder="2. Sayıyı Giriniz" id="sayi2" />
+        </td>
+        <td>
+          <input type="button" value="Hesapla" onclick="SwitchCase()" />
+        </td>
+        <td>
+          <input type="text" id="sonuc" placeholder="Sonuç" readonly />
+        </td>
+      </tr>
+    </table>
+
+    <hr />
+    <h2>Değişkenler</h2>
+    <p>
+      Değişkenler, programlama dillerinde verileri saklamak için kullanılan
+      isimlendirilmiş alanlardır. JavaScript'te değişkenler, "var", "let" veya
+      "const" anahtar kelimeleri ile tanımlanabilir.
+    </p>
+    <p><strong>var</strong>: Değişkenin değerini değiştirebilirsiniz.</p>
+    <p>
+      <strong>let</strong>: Değişkenin değerini değiştirebilirsiniz. Ama blok
+      kapsamına sahiptir.
+    </p>
+    <p><strong>const</strong>: Değişkenin değerini değiştiremezsiniz.</p>
+
+    <hr />
+    <h3>Karar Yapıları</h3>
+    <p>
+      Karar yapıları, programın akışını belirlemek için kullanılan kontrol
+      yapılarıdır. JavaScript'te en yaygın karar yapıları "if", "else if" ve
+      "else" ifadeleridir.
+    </p>
+    <p>Bir koşulun değerine göre 2 işlemden birinin çalışmasını sağlar.</p>
+
+    <hr />
+    <h3>Döngüler</h3>
+    <ul>
+      <li>
+        <strong>for</strong>: Belirli bir koşul sağlandığı sürece aynı kod
+        bloğunu tekrar çalıştırmak için kullanılır.
+        <input type="button" value="For Döngüsü" onclick="ForDongusu()" />
+      </li>
+      <li>
+        <strong>while</strong>: Koşul doğru olduğu sürece kod bloğunu tekrar
+        çalıştırmak için kullanılır.
+        <input type="button" value="While Döngüsü" onclick="WhileDongusu()" />
+      </li>
+      <li>
+        <strong>do...while</strong>: En az bir kez kod bloğunu çalıştırmak ve
+        ardından koşulu kontrol etmek için kullanılır.
+        <input
+          type="button"
+          value="Do...While Döngüsü"
+          onclick="DoWhileDongusu()"
+        />
+      </li>
+    </ul>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+/*GENEL KISMI*/
+/*html ve body etiketlerinin yüksekliğini %100 yapar, böylece sayfa tam ekran görünür.
+Ayrıca divlerin yüksekliğini ayarlayabilmemizi sağlar.*/
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+/*CONTAINER KISMI*/
+.container {
+  margin: auto;
+  overflow: hidden;
+}
+#top-menu {
+  justify-content: space-evenly;
+  gap: 100px;
+  list-style: none;
+  background-color: #000;
+  display: flex;
+  padding: 10px 0 10px 0px;
+  align-items: center;
+}
+#top-menu li {
+  display: inline-block;
+  float: left;
+}
+#top-menu li:hover {
+  background-color: #fff;
+  color: #000;
+}
+#top-menu li a {
+  text-decoration: none;
+  color: #00ff00;
+}
+#top-menu li a:hover {
+  color: #000;
+  background-color: #fff;
+}
+.sol {
+  background-color: #1e332d;
+  font-size: 20px;
+  padding: 10px;
+  display: inline-block;
+  float: left;
+  width: 20%;
+  min-width: 150px;
+  height: 100%;
+  margin-top: -16px;
+}
+#left-menu {
+  justify-content: space-evenly;
+  gap: 100px;
+  list-style: none;
+  background-color: #1e332d;
+  padding: 10px;
+  align-items: center;
+}
+#left-menu li {
+  margin-bottom: 10px;
+}
+#left-menu li a {
+  text-decoration: none;
+  color: #5ee5be;
+}
+#left-menu li:hover {
+  color: #000;
+  background-color: #fff;
+}
+#left-menu li a:hover {
+  color: #000;
+}
+.content {
+  display: inline-block;
+  float: left;
+  padding-left: 1%;
+  width: 80%;
+}
+
+/*FOOTER KISMI*/
+#copyright {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: -15px;
+  width: 100%;
+}
+header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.solHiza {
+  text-align: left;
+}
+.sagHiza {
+  text-align: right;
+}
