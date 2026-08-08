@@ -92,16 +92,46 @@ function WhileDongusu() {
   var cevap = true;
   while (cevap) {
     var gelenDeger = parseFloat(prompt("Toplanacak değeri giriniz...", 100));
-    if (isNaN(gelenDeger) || gelenDeger === null) {
+
+    if (
+      gelenDeger == NaN ||
+      gelenDeger == null ||
+      gelenDeger.toString().trim() === ""
+    ) {
       alert("Lütfen geçerli bir sayı giriniz.");
-      break;
+      cevap = false;
+      continue;
     } else {
       toplam += gelenDeger;
       cevap = confirm("Devam etmek istiyor musunuz?");
       if (cevap != true) {
         cevap = false;
+        alert("Toplam değeri: " + toplam);
       }
     }
   }
-  alert("Toplam değeri: " + toplam);
+}
+
+function DoWhileDongusu() {
+  // do while döngüsü, kod bloğunu en az bir kez çalıştırır ve ardından belirli bir koşul sağlandığı sürece tekrar çalıştırır.
+  let toplam = 0;
+  var cevap = true;
+  do {
+    var gelenDeger = parseFloat(prompt("Toplanacak değeri giriniz...", 100));
+    if (
+      gelenDeger == NaN ||
+      gelenDeger == null ||
+      gelenDeger.toString().trim() === ""
+    ) {
+      alert("Lütfen geçerli bir sayı giriniz.");
+      continue;
+    } else {
+      toplam += gelenDeger;
+    }
+    cevap = confirm("Devam etmek istiyor musunuz?");
+    if (cevap != true) {
+      cevap = false;
+      alert("Toplam değeri: " + toplam);
+    }
+  } while (cevap);
 }
