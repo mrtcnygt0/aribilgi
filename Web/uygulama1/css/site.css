@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+}
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --light-color: #f4f4f4;
+  --dark-color: #333;
+  --text-color: #555;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--light-color);
+  color: var(--text-color);
+  line-height: 1.7;
+}
+span {
+  color: var(--secondary-color);
+}
+.nav {
+  background: #ffffff;
+  width: 100%;
+  height: 60px;
+  margin: 0px auto;
+  padding: 0 15% 0 15%;
+}
+.container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.hero {
+  width: 100%;
+  min-height: 400px;
+  margin: 50px 0 20px 0;
+  padding: 10px 15% 10px 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+#heroSol {
+  text-align: left;
+  width: 50%;
+}
+
+#heroSag {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+#heroSag img {
+  width: 100%;
+  height: auto;
+  align-content: center;
+  vertical-align: middle;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+#heroSag img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+#heroKucukBaslik {
+  background-color: var(--primary-color);
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+#heroBaslik {
+  text-align: left;
+  font-size: 42px;
+  font-weight: 900;
+}
+#heroAciklama {
+  text-align: left;
+  font-size: large;
+  margin-top: 20px;
+}
+#heroButon {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+#heroButon:hover {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+#logo {
+  float: left;
+  text-align: left;
+  height: 60px;
+  line-height: 60px;
+}
+#logo a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: xx-large;
+  font-weight: 700;
+  line-height: 60px;
+}
+#menu {
+  align-content: center;
+  vertical-align: middle;
+  text-align: right;
+  display: inline-block;
+  float: right;
+  height: 100%;
+  width: 60%;
+  line-height: 60px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 16px;
+  margin-left: 40px;
+  line-height: 60px;
+}
+#menu a:hover {
+  color: var(--primary-color);
+}
+#menu a:active {
+  color: var(--primary-color);
+}
+#hamburger {
+  display: none;
+  cursor: pointer;
+  float: right;
+  height: 60px;
+  line-height: 60px;
+}
+@media (max-width: 768px) {
+  #menu {
+    display: none;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: var(--light-color);
+    z-index: 9999;
+  }
+  #menu a {
+    display: block;
+    margin: 10px 0;
+  }
+  #hamburger {
+    display: block;
+  }
+  .hero {
+    flex-direction: column;
+    padding: 10px 5%;
+  }
+
+  #heroSol,
+  #heroSag {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #heroSag {
+    margin-top: 40px;
+  }
+
+  #heroBaslik,
+  #heroAciklama {
+    text-align: center;
+  }
+}
