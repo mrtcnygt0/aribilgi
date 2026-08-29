@@ -1,0 +1,24 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<title>Hesap Makinesi</title>
+<h1>HESAP MAKİNESİ</h1>
+<p>Hoş Geldin @ViewBag.kullanici</p>
+<hr />
+
+<!-- asp-action ile IActionResult ismi belirtilmezse Index'e gider -->
+<!-- method belirtilmezse varsayılan olarak get seçilir -->
+<form asp-action="Hesapla" method="post">
+    <input type="number" name="sayi1" placeholder="1. Sayıyı Giriniz" value="@ViewBag.sayi1"/>
+
+    <select name="oprt" asp-items="@ViewBag.oprt">
+    </select>
+
+    <input type="number" name="sayi2" placeholder="2. Sayıyı Giriniz" value="@ViewBag.sayi2" />
+
+    <input type="submit" value="=" />
+    <input type="text" name="sonuc" value="@ViewBag.Sonuc" readonly="readonly" step="0,01"/>
+</form>

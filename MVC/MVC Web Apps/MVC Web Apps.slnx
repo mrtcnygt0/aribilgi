@@ -1,4 +1,8 @@
 <Solution>
   <Project Path="HelloWorld/HelloWorld.csproj" />
+  <Project Path="HesapMakinesi/HesapMakinesi.csproj" Id="d18be41d-6b37-4315-ae71-c8316832fff7" />
+  <Project Path="KendimiDeniyorum/KendimiDeniyorum.csproj" Id="e172a2f5-e893-4224-a82a-78914faba698" />
+  <Project Path="ModelVerisi/ModelVerisi.csproj" Id="5fa5ab4f-41c4-485b-af0f-c3b63a9a3803" />
+  <Project Path="SatisFormu/SatisFormu.csproj" Id="61c2dae7-1620-4f40-8e01-fa38d92956b2" />
   <Project Path="TestUygulamasi/TestUygulamasi.csproj" />
 </Solution>

@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Sınav Listesi";
+}
+
+@model List<Sinav>
+
+<h1>Sınav Listesi</h1>
+<hr />
+
+<div class="table">
+    <div calss="card">
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-3">
+                    <h2>@item.OgrAd</h2>
+                    <p>@item.Tarih</p>
+                    <p>@item.Ders</p>
+                    <p>@item.Puan</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@* <div class="col-3">
+    @foreach (var item in Model)
+    {
+        <div class="card">
+            <p>@item.Tarih</p>
+            <p>@item.Ders</p>
+            <p>@item.Puan</p>
+        </div>
+    }
+</div> *@

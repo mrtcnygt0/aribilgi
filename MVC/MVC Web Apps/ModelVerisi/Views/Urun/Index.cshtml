@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<Urun>
+
+<h1>Ürünler</h1>
+<hr />
+
+<div class="table">
+    <div calss="card">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-3">
+                <h2>@item.UrunAd</h2>
+                <p>@item.Marka</p>
+                <p>@item.Model</p>
+                <p>@item.Fiyat</p>
+            </div>
+        }
+    </div>
+    </div>
+</div>

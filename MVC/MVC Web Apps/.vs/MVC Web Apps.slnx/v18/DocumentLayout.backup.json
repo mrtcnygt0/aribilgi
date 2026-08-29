@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D422D4F-D0B8-46DC-AB2D-A41008E9F34E}|TestUygulamasi\\TestUygulamasi.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\mvc web apps\\testuygulamasi\\views\\hesap\\sonucgoster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D422D4F-D0B8-46DC-AB2D-A41008E9F34E}|TestUygulamasi\\TestUygulamasi.csproj|solutionrelative:testuygulamasi\\views\\hesap\\sonucgoster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E172A2F5-E893-4224-A82A-78914FABA698}|KendimiDeniyorum\\KendimiDeniyorum.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\mvc web apps\\kendimideniyorum\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E172A2F5-E893-4224-A82A-78914FABA698}|KendimiDeniyorum\\KendimiDeniyorum.csproj|solutionrelative:kendimideniyorum\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D422D4F-D0B8-46DC-AB2D-A41008E9F34E}|TestUygulamasi\\TestUygulamasi.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\mvc web apps\\testuygulamasi\\controllers\\hesapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D422D4F-D0B8-46DC-AB2D-A41008E9F34E}|TestUygulamasi\\TestUygulamasi.csproj|solutionrelative:testuygulamasi\\controllers\\hesapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FA5AB4F-41C4-485B-AF0F-C3B63A9A3803}|ModelVerisi\\ModelVerisi.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\mvc web apps\\modelverisi\\views\\urun\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FA5AB4F-41C4-485B-AF0F-C3B63A9A3803}|ModelVerisi\\ModelVerisi.csproj|solutionrelative:modelverisi\\views\\urun\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D422D4F-D0B8-46DC-AB2D-A41008E9F34E}|TestUygulamasi\\TestUygulamasi.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\mvc web apps\\testuygulamasi\\views\\hesap\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D422D4F-D0B8-46DC-AB2D-A41008E9F34E}|TestUygulamasi\\TestUygulamasi.csproj|solutionrelative:testuygulamasi\\views\\hesap\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FA5AB4F-41C4-485B-AF0F-C3B63A9A3803}|ModelVerisi\\ModelVerisi.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\mvc web apps\\modelverisi\\controllers\\uruncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA5AB4F-41C4-485B-AF0F-C3B63A9A3803}|ModelVerisi\\ModelVerisi.csproj|solutionrelative:modelverisi\\controllers\\uruncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA5AB4F-41C4-485B-AF0F-C3B63A9A3803}|ModelVerisi\\ModelVerisi.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\mvc web apps\\modelverisi\\models\\urun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA5AB4F-41C4-485B-AF0F-C3B63A9A3803}|ModelVerisi\\ModelVerisi.csproj|solutionrelative:modelverisi\\models\\urun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E172A2F5-E893-4224-A82A-78914FABA698}|KendimiDeniyorum\\KendimiDeniyorum.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\mvc web apps\\kendimideniyorum\\models\\sinav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E172A2F5-E893-4224-A82A-78914FABA698}|KendimiDeniyorum\\KendimiDeniyorum.csproj|solutionrelative:kendimideniyorum\\models\\sinav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E172A2F5-E893-4224-A82A-78914FABA698}|KendimiDeniyorum\\KendimiDeniyorum.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\mvc web apps\\kendimideniyorum\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E172A2F5-E893-4224-A82A-78914FABA698}|KendimiDeniyorum\\KendimiDeniyorum.csproj|solutionrelative:kendimideniyorum\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA5AB4F-41C4-485B-AF0F-C3B63A9A3803}|ModelVerisi\\ModelVerisi.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\mvc web apps\\modelverisi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA5AB4F-41C4-485B-AF0F-C3B63A9A3803}|ModelVerisi\\ModelVerisi.csproj|solutionrelative:modelverisi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,40 +75,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SonucGoster.cshtml",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\TestUygulamasi\\Views\\Hesap\\SonucGoster.cshtml",
-              "RelativeDocumentMoniker": "TestUygulamasi\\Views\\Hesap\\SonucGoster.cshtml",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\TestUygulamasi\\Views\\Hesap\\SonucGoster.cshtml",
-              "RelativeToolTip": "TestUygulamasi\\Views\\Hesap\\SonucGoster.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\KendimiDeniyorum\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "KendimiDeniyorum\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\KendimiDeniyorum\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "KendimiDeniyorum\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-16T15:30:47.083Z",
+              "WhenOpened": "2026-08-29T16:14:38.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\KendimiDeniyorum\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "KendimiDeniyorum\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\KendimiDeniyorum\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "KendimiDeniyorum\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T16:06:12.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Sinav.cs",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\KendimiDeniyorum\\Models\\Sinav.cs",
+              "RelativeDocumentMoniker": "KendimiDeniyorum\\Models\\Sinav.cs",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\KendimiDeniyorum\\Models\\Sinav.cs",
+              "RelativeToolTip": "KendimiDeniyorum\\Models\\Sinav.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T16:01:49.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\ModelVerisi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ModelVerisi\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\ModelVerisi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ModelVerisi\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCAAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T12:50:33.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Urun.cs",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\ModelVerisi\\Models\\Urun.cs",
+              "RelativeDocumentMoniker": "ModelVerisi\\Models\\Urun.cs",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\ModelVerisi\\Models\\Urun.cs",
+              "RelativeToolTip": "ModelVerisi\\Models\\Urun.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T16:14:11.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\TestUygulamasi\\Views\\Hesap\\Index.cshtml",
-              "RelativeDocumentMoniker": "TestUygulamasi\\Views\\Hesap\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\TestUygulamasi\\Views\\Hesap\\Index.cshtml",
-              "RelativeToolTip": "TestUygulamasi\\Views\\Hesap\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-16T15:21:31.534Z",
+              "Title": "UrunController.cs",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\ModelVerisi\\Controllers\\UrunController.cs",
+              "RelativeDocumentMoniker": "ModelVerisi\\Controllers\\UrunController.cs",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\ModelVerisi\\Controllers\\UrunController.cs",
+              "RelativeToolTip": "ModelVerisi\\Controllers\\UrunController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T14:04:18.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HesapController.cs",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\TestUygulamasi\\Controllers\\HesapController.cs",
-              "RelativeDocumentMoniker": "TestUygulamasi\\Controllers\\HesapController.cs",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\TestUygulamasi\\Controllers\\HesapController.cs",
-              "RelativeToolTip": "TestUygulamasi\\Controllers\\HesapController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T15:16:35.391Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\ModelVerisi\\Views\\Urun\\Index.cshtml",
+              "RelativeDocumentMoniker": "ModelVerisi\\Views\\Urun\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\MVC Web Apps\\ModelVerisi\\Views\\Urun\\Index.cshtml",
+              "RelativeToolTip": "ModelVerisi\\Views\\Urun\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-29T14:18:36.347Z",
               "EditorCaption": ""
             }
           ]

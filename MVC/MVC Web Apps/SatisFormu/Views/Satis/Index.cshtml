@@ -1,0 +1,36 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Satış Formu</h1>
+<hr />
+
+<form asp-action="Hesapla">
+<table>
+    <tr>
+        <td>Ürün Seçiniz</td>
+        <td>:</td>
+        <td>
+            <select asp-items="@ViewBag.urunListesi" name="urunAd"></select>
+        </td>
+    </tr>
+    <tr>
+        <td>Miktar</td>
+        <td>:</td>
+        <td>
+            <input type="number" name="miktar" />
+        </td>
+    </tr>
+    <tr>
+        <td>Fiyat</td>
+        <td>:</td>
+        <td>
+            <input type="number" value="@ViewBag.fiyat.value" name="fiyat" />
+        </td>
+    </tr>
+    
+</table>
+<input type="submit" value="Hesapla" />
+</form>
