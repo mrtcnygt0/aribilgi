@@ -1,0 +1,54 @@
+@model EntityCodeFirst2.Models.Oyuncu
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Oyuncu</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="OyuncuName" class="control-label"></label>
+                <input asp-for="OyuncuName" class="form-control" />
+                <span asp-validation-for="OyuncuName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="KayitTarihi" class="control-label"></label>
+                <input asp-for="KayitTarihi" class="form-control" />
+                <span asp-validation-for="KayitTarihi" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NickName" class="control-label"></label>
+                <input asp-for="NickName" class="form-control" />
+                <span asp-validation-for="NickName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="XP" class="control-label"></label>
+                <input asp-for="XP" class="form-control" />
+                <span asp-validation-for="XP" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

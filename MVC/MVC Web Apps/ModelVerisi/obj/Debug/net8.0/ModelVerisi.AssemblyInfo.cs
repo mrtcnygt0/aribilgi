@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ModelVerisi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b0adc2bbb71a8b11512409a83bb6e36f6be783b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4262b4e0b157d7864d02fe5be77a07cd0ee06391")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModelVerisi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModelVerisi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
