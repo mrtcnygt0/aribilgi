@@ -2,6 +2,7 @@
 using ETicaret8412Admin.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 [Authorize]
@@ -17,7 +18,7 @@ public class ProductController : Controller
     // GET: PRODUCTS
     public async Task<IActionResult> Index()    
     {
-        return View(await _context.Products.ToListAsync());
+        return View(await _context.Products.Include(k=>k.Category).ToListAsync());
     }
 
     // GET: PRODUCTS/Details/5
@@ -41,7 +42,18 @@ public class ProductController : Controller
     // GET: PRODUCTS/Create
     public IActionResult Create()
     {
+        KategoriYukle();
+
         return View();
+    }
+
+    private void KategoriYukle()
+    {
+        List<Category> cat = _context.Categories.ToList();
+
+        SelectList sl = new SelectList(cat, "CategoryId", "CategoryName");
+
+        ViewBag.KategoriListesi = sl;
     }
 
     // POST: PRODUCTS/Create
@@ -49,10 +61,20 @@ public class ProductController : Controller
     // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Create([Bind("ProductId,ProductName,Size,Color,UnitPrice,CategoryId,Description,PicturePath,Baskets,Category,SaleDetails")] Product product)
+    public async Task<IActionResult> Create([Bind("ProductId,ProductName,Size,Color,UnitPrice,CategoryId,Description,Picture,Baskets,Category,SaleDetails")] Product product, IFormFile secilenResim)
     {
+        string resimAd = "";
+
+        if (secilenResim != null && secilenResim.Length > 0) 
+        {
+            resimAd = secilenResim.FileName;
+
+        }
+
         if (ModelState.IsValid)
         {
+            product.Picture = resimAd;
+
             _context.Add(product);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
@@ -73,6 +95,9 @@ public class ProductController : Controller
         {
             return NotFound();
         }
+
+        KategoriYukle();
+
         return View(product);
     }
 
@@ -81,11 +106,20 @@ public class ProductController : Controller
     // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Edit(int? id, [Bind("ProductId,ProductName,Size,Color,UnitPrice,CategoryId,Description,PicturePath,Baskets,Category,SaleDetails")] Product product)
+    public async Task<IActionResult> Edit(int? id, [Bind("ProductId,ProductName,Size,Color,UnitPrice,CategoryId,Description,Picture,Baskets,Category,SaleDetails")] Product product, IFormFile secilenResim)
     {
+
         if (id != product.ProductId)
         {
             return NotFound();
+        }
+
+        string resimAd = "";
+
+        if (secilenResim != null && secilenResim.Length > 0)
+        {
+            resimAd = secilenResim.FileName;
+            product.Picture = resimAd;
         }
 
         if (ModelState.IsValid)

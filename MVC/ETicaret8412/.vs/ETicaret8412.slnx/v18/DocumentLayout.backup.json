@@ -3,68 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|solutionrelative:eticaret8412admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4F2A2BEE-072B-4893-A850-BE96EDF98C15}|ETicaret8412Web\\ETicaret8412Web.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412web\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F2A2BEE-072B-4893-A850-BE96EDF98C15}|ETicaret8412Web\\ETicaret8412Web.csproj|solutionrelative:eticaret8412web\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412admin\\controllers\\saledetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|solutionrelative:eticaret8412admin\\controllers\\saledetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F2A2BEE-072B-4893-A850-BE96EDF98C15}|ETicaret8412Web\\ETicaret8412Web.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4F2A2BEE-072B-4893-A850-BE96EDF98C15}|ETicaret8412Web\\ETicaret8412Web.csproj|solutionrelative:eticaret8412web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412admin\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|solutionrelative:eticaret8412admin\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F2A2BEE-072B-4893-A850-BE96EDF98C15}|ETicaret8412Web\\ETicaret8412Web.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2A2BEE-072B-4893-A850-BE96EDF98C15}|ETicaret8412Web\\ETicaret8412Web.csproj|solutionrelative:eticaret8412web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|solutionrelative:eticaret8412admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F2A2BEE-072B-4893-A850-BE96EDF98C15}|ETicaret8412Web\\ETicaret8412Web.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2A2BEE-072B-4893-A850-BE96EDF98C15}|ETicaret8412Web\\ETicaret8412Web.csproj|solutionrelative:eticaret8412web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412admin\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|solutionrelative:eticaret8412admin\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4F2A2BEE-072B-4893-A850-BE96EDF98C15}|ETicaret8412Web\\ETicaret8412Web.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F2A2BEE-072B-4893-A850-BE96EDF98C15}|ETicaret8412Web\\ETicaret8412Web.csproj|solutionrelative:eticaret8412web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412admin\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|solutionrelative:eticaret8412admin\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|solutionrelative:eticaret8412admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|solutionrelative:eticaret8412admin\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412admin\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|solutionrelative:eticaret8412admin\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|solutionrelative:eticaret8412admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|solutionrelative:eticaret8412admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|solutionrelative:eticaret8412admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412admin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|solutionrelative:eticaret8412admin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412admin\\data\\migrations\\20260912162830_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|solutionrelative:eticaret8412admin\\data\\migrations\\20260912162830_users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412admin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|solutionrelative:eticaret8412admin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|c:\\users\\mertc\\documents\\github\\aribilgi\\mvc\\eticaret8412\\eticaret8412admin\\models\\_8412dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B51D9461-DCA2-3792-C2A8-DCF2133E7E3B}|ETicaret8412Admin\\ETicaret8412Admin.csproj|solutionrelative:eticaret8412admin\\models\\_8412dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Web\\Models\\_8412dbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ETicaret8412Web\\Models\\_8412dbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -111,206 +71,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SaleDetailController.cs",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Controllers\\SaleDetailController.cs",
-              "RelativeDocumentMoniker": "ETicaret8412Admin\\Controllers\\SaleDetailController.cs",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Controllers\\SaleDetailController.cs",
-              "RelativeToolTip": "ETicaret8412Admin\\Controllers\\SaleDetailController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T16:08:22.68Z",
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Web\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ETicaret8412Web\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Web\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ETicaret8412Web\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-09-20T15:44:14.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SaleController.cs",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Controllers\\SaleController.cs",
-              "RelativeDocumentMoniker": "ETicaret8412Admin\\Controllers\\SaleController.cs",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Controllers\\SaleController.cs",
-              "RelativeToolTip": "ETicaret8412Admin\\Controllers\\SaleController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T16:05:50.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BasketController.cs",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Controllers\\BasketController.cs",
-              "RelativeDocumentMoniker": "ETicaret8412Admin\\Controllers\\BasketController.cs",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Controllers\\BasketController.cs",
-              "RelativeToolTip": "ETicaret8412Admin\\Controllers\\BasketController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T15:57:20.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "ETicaret8412Admin\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "ETicaret8412Admin\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T15:51:58.472Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Web\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "ETicaret8412Web\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Web\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "ETicaret8412Web\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-20T14:17:32.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "ETicaret8412Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "ETicaret8412Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Web\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ETicaret8412Web\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Web\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ETicaret8412Web\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T15:49:29.371Z",
+              "WhenOpened": "2026-09-20T14:03:12.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "ETicaret8412Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "ETicaret8412Admin\\Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-13T14:38:58.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "ETicaret8412Admin\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "ETicaret8412Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T13:18:53.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ETicaret8412Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ETicaret8412Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACUAAAB0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-13T14:31:57.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Views\\Category\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ETicaret8412Admin\\Views\\Category\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Views\\Category\\Edit.cshtml",
-              "RelativeToolTip": "ETicaret8412Admin\\Views\\Category\\Edit.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-13T14:39:16.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Views\\Category\\Details.cshtml",
-              "RelativeDocumentMoniker": "ETicaret8412Admin\\Views\\Category\\Details.cshtml",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Views\\Category\\Details.cshtml",
-              "RelativeToolTip": "ETicaret8412Admin\\Views\\Category\\Details.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-13T14:39:27.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Views\\Category\\Delete.cshtml",
-              "RelativeDocumentMoniker": "ETicaret8412Admin\\Views\\Category\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Views\\Category\\Delete.cshtml",
-              "RelativeToolTip": "ETicaret8412Admin\\Views\\Category\\Delete.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-13T14:40:26.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "ETicaret8412Admin\\Views\\Category\\Create.cshtml",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "ETicaret8412Admin\\Views\\Category\\Create.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-09-13T14:33:45.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Program.cs",
-              "RelativeDocumentMoniker": "ETicaret8412Admin\\Program.cs",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Program.cs",
-              "RelativeToolTip": "ETicaret8412Admin\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Web\\Program.cs",
+              "RelativeDocumentMoniker": "ETicaret8412Web\\Program.cs",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Web\\Program.cs",
+              "RelativeToolTip": "ETicaret8412Web\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-13T14:05:52.588Z"
+              "WhenOpened": "2026-09-20T13:36:17.145Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20260912162830_users.cs",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Data\\Migrations\\20260912162830_users.cs",
-              "RelativeDocumentMoniker": "ETicaret8412Admin\\Data\\Migrations\\20260912162830_users.cs",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Data\\Migrations\\20260912162830_users.cs",
-              "RelativeToolTip": "ETicaret8412Admin\\Data\\Migrations\\20260912162830_users.cs",
+              "DocumentIndex": 5,
+              "Title": "_8412dbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Web\\Models\\_8412dbContext.cs",
+              "RelativeDocumentMoniker": "ETicaret8412Web\\Models\\_8412dbContext.cs",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Web\\Models\\_8412dbContext.cs",
+              "RelativeToolTip": "ETicaret8412Web\\Models\\_8412dbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T16:28:30.932Z"
+              "WhenOpened": "2026-09-20T13:35:47.238Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\appsettings.json",
-              "RelativeDocumentMoniker": "ETicaret8412Admin\\appsettings.json",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\appsettings.json",
-              "RelativeToolTip": "ETicaret8412Admin\\appsettings.json",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Web\\appsettings.json",
+              "RelativeDocumentMoniker": "ETicaret8412Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Web\\appsettings.json",
+              "RelativeToolTip": "ETicaret8412Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-12T16:16:45.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_8412dbContext.cs",
-              "DocumentMoniker": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Models\\_8412dbContext.cs",
-              "RelativeDocumentMoniker": "ETicaret8412Admin\\Models\\_8412dbContext.cs",
-              "ToolTip": "C:\\Users\\mertc\\Documents\\GitHub\\aribilgi\\MVC\\ETicaret8412\\ETicaret8412Admin\\Models\\_8412dbContext.cs",
-              "RelativeToolTip": "ETicaret8412Admin\\Models\\_8412dbContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA9wB8AAACOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T16:06:00.467Z"
+              "WhenOpened": "2026-09-20T13:31:08.853Z",
+              "EditorCaption": ""
             }
           ]
         }

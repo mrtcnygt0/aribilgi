@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ETicaret8412Admin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93a08369a59bb998249f34593bf5dc87d2cbfc89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e4f284d080ac3eb678d3ec28a21899badbd9522")]
 [assembly: System.Reflection.AssemblyProductAttribute("ETicaret8412Admin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ETicaret8412Admin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
